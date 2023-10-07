@@ -20,3 +20,47 @@
 2023-10-07 11:52:14.705 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 3.388 seconds (process running for 3.859)
 2023-10-07 11:52:14.708 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
 2023-10-07 11:52:14.709 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-07 14:51:37.436 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-07 14:51:37.466 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 41988 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 14:51:37.467 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 14:51:37.976 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=e95a6147-5fef-3a56-9ed0-ec12ef70b428
+2023-10-07 14:51:38.799 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-07 14:51:38.799 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-07 14:51:38.799 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-07 14:51:38.800 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-07 14:51:39.542 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-07 14:51:40.180 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 3.446 seconds (process running for 3.946)
+2023-10-07 14:51:40.183 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-07 14:51:40.184 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-07 14:52:53.871 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-07 14:52:53.901 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 31004 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 14:52:53.902 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 14:52:54.400 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=e95a6147-5fef-3a56-9ed0-ec12ef70b428
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-07 14:52:55.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-07 14:52:55.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-07 14:52:55.887 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-07 14:52:56.559 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 3.328 seconds (process running for 3.795)
+2023-10-07 14:52:56.561 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-07 14:52:56.563 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000

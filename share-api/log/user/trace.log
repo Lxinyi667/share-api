@@ -353,3 +353,59 @@
 2023-10-07 11:53:07.760 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16966507877191uc  [0;39m 请求参数：[]
 2023-10-07 11:53:07.761 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16966507877191uc  [0;39m 返回结果："Hello Wrold!"
 2023-10-07 11:53:07.761 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16966507877191uc  [0;39m -------------结束耗时：42ms -----
+2023-10-07 14:51:18.272 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 44300 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 14:51:18.273 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 14:51:19.294 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 14:51:19.302 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 14:51:19.304 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 14:51:19.306 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 14:51:19.386 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 14:51:19.386 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1071 ms
+2023-10-07 14:51:19.763 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 14:51:20.169 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 14:51:20.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 14:51:20.193 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.325 seconds (process running for 2.809)
+2023-10-07 14:51:20.196 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-07 14:51:20.197 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 14:53:07.570 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 14:53:07.571 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 14:53:07.572 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-07 14:53:07.598 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696661587591jf0  [0;39m -------开始-------
+2023-10-07 14:53:07.598 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696661587591jf0  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-07 14:53:07.599 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696661587591jf0  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-07 14:53:07.599 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696661587591jf0  [0;39m 远程地址：127.0.0.1
+2023-10-07 14:53:07.629 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696661587591jf0  [0;39m 请求参数：[]
+2023-10-07 14:53:07.654 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1696661587591jf0  [0;39m HikariPool-1 - Starting...
+2023-10-07 14:53:07.900 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1696661587591jf0  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@410a8d7
+2023-10-07 14:53:07.901 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1696661587591jf0  [0;39m HikariPool-1 - Start completed.
+2023-10-07 14:53:07.936 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696661587591jf0  [0;39m 返回结果：2
+2023-10-07 14:53:07.936 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696661587591jf0  [0;39m -------------结束耗时：345ms -----
+2023-10-07 14:53:31.232 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-07 14:53:31.238 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-07 14:53:33.654 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 34320 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 14:53:33.655 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 14:53:34.661 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 14:53:34.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 14:53:34.680 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 14:53:34.681 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 14:53:34.754 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 14:53:34.755 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1064 ms
+2023-10-07 14:53:35.078 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 14:53:35.483 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 14:53:35.504 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 14:53:35.511 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.239 seconds (process running for 2.79)
+2023-10-07 14:53:35.513 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-07 14:53:35.514 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 14:53:42.700 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 14:53:42.700 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 14:53:42.701 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-07 14:53:42.727 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16966616227229m4  [0;39m -------开始-------
+2023-10-07 14:53:42.728 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16966616227229m4  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-07 14:53:42.728 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16966616227229m4  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-07 14:53:42.728 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16966616227229m4  [0;39m 远程地址：127.0.0.1
+2023-10-07 14:53:42.777 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16966616227229m4  [0;39m 请求参数：[]
+2023-10-07 14:53:42.802 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m16966616227229m4  [0;39m HikariPool-1 - Starting...
+2023-10-07 14:53:43.024 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m16966616227229m4  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53ceb73b
+2023-10-07 14:53:43.026 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m16966616227229m4  [0;39m HikariPool-1 - Start completed.
+2023-10-07 14:53:43.059 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16966616227229m4  [0;39m 返回结果：2
+2023-10-07 14:53:43.060 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16966616227229m4  [0;39m -------------结束耗时：338ms -----
