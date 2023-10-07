@@ -13,6 +13,7 @@ import java.util.Date;
 @Builder
 public class User {
     private Long id;
+    private String phone;
     private String password;
     private String nickname;
     private String rules;
@@ -20,4 +21,6 @@ public class User {
     private Integer bonus;
     private Date createTime;
     private Date updateTime;
+
+
 }
