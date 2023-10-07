@@ -10,4 +10,4 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 logging:
   level:
-    top.mqxu.share.user.mapper: debug
+    top.lxyi.share.user.mapper: debug

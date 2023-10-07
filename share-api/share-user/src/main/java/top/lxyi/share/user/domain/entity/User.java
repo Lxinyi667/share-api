@@ -16,7 +16,7 @@ public class User {
     private String phone;
     private String password;
     private String nickname;
-    private String rules;
+    private String roles;
     private String avatarUrl;
     private Integer bonus;
     private Date createTime;
