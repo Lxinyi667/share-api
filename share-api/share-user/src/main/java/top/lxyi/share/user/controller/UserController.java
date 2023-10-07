@@ -1,6 +1,7 @@
 package top.lxyi.share.user.controller;
 
 import jakarta.annotation.Resource;
+import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 import top.lxyi.share.common.resp.CommonResp;
 import top.lxyi.share.user.domain.dto.LoginDTO;
@@ -22,7 +23,8 @@ public class UserController {
     return commonResp;
     }
     @PostMapping("/login")
-    public CommonResp<User> login(@RequestBody LoginDTO LoginDTO) {
+//    public CommonResp<User> login(@RequestBody LoginDTO LoginDTO) {
+    public CommonResp<User> login(@Valid @RequestBody LoginDTO LoginDTO) {
 //        return userService.login(LoginDTO);
         User user = userService.login(LoginDTO);
         CommonResp<User> commonResp = new CommonResp<>();
