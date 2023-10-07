@@ -1,5 +1,7 @@
 package top.lxyi.share.user.service;
 
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.jwt.JWTUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
@@ -8,9 +10,11 @@ import top.lxyi.share.common.exception.BusinessExceptionEnum;
 import top.lxyi.share.common.util.SnowUtil;
 import top.lxyi.share.user.domain.dto.LoginDTO;
 import top.lxyi.share.user.domain.entity.User;
+import top.lxyi.share.user.domain.resp.UserLoginResp;
 import top.lxyi.share.user.mapper.UserMapper;
 
 import java.util.Date;
+import java.util.Map;
 
 @Service
 public class UserService {
@@ -20,7 +24,7 @@ public class UserService {
     public Long count(){
         return userMapper.selectCount(null);
     }
-    public User login(LoginDTO loginDTO){
+    public UserLoginResp login(LoginDTO loginDTO){
         User userDB= userMapper.selectOne(new QueryWrapper<User>().lambda().eq(User::getPhone,loginDTO.getPhone()));
         if (userDB == null){
 //            throw new RuntimeException("手机号不存在");
@@ -30,8 +34,17 @@ public class UserService {
 //            throw new RuntimeException("密码错误");
         throw new BusinessException(BusinessExceptionEnum.PASSWORD_ERROR);
         }
-        return userDB;
+//        都正确，返回
+        UserLoginResp userLoginResp = UserLoginResp.builder()
+                .user(userDB)
+                .build();
+        String key ="InfinityX7";
+        Map<String,Object> map =BeanUtil.beanToMap(userLoginResp);
+        String token =JWTUtil.createToken(map,key.getBytes());
+        userLoginResp.setToken(token);
+        return userLoginResp;
     }
+
     public Long register(LoginDTO loginDTO){
 //        根据手机号查询用户
         User userDB= userMapper.selectOne(new QueryWrapper<User>().lambda().eq(User::getPhone,loginDTO.getPhone()));

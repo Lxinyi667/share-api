@@ -2370,3 +2370,37 @@ top.lxyi.share.common.exception.BusinessException: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-07 17:12:04.593 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-07 17:12:04.599 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-07 17:12:06.974 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-07 17:12:07.003 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 34544 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 17:12:07.004 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 17:12:08.148 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 17:12:08.157 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 17:12:08.159 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 17:12:08.159 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 17:12:08.239 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 17:12:08.240 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1197 ms
+2023-10-07 17:12:08.693 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 17:12:09.132 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 17:12:09.149 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 17:12:09.157 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.55 seconds (process running for 3.058)
+2023-10-07 17:12:09.159 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-07 17:12:09.159 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 17:12:32.673 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 17:12:32.674 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 17:12:32.675 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-07 17:12:32.795 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m169666995278683a  [0;39m -------开始-------
+2023-10-07 17:12:32.796 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m169666995278683a  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-07 17:12:32.796 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m169666995278683a  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-07 17:12:32.796 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m169666995278683a  [0;39m 远程地址：127.0.0.1
+2023-10-07 17:12:32.853 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m169666995278683a  [0;39m 请求参数：[{}]
+2023-10-07 17:12:32.900 WARN  c.b.m.core.toolkit.support.ReflectLambdaMeta      :41   [32m169666995278683a  [0;39m Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @3754a4bf
+2023-10-07 17:12:32.928 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169666995278683a  [0;39m HikariPool-1 - Starting...
+2023-10-07 17:12:33.287 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m169666995278683a  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13f6eca3
+2023-10-07 17:12:33.289 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169666995278683a  [0;39m HikariPool-1 - Start completed.
+2023-10-07 17:12:33.298 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :137  [32m169666995278683a  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-07 17:12:33.324 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :137  [32m169666995278683a  [0;39m ==> Parameters: 13951905172(String)
+2023-10-07 17:12:33.342 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :137  [32m169666995278683a  [0;39m <==      Total: 1
+2023-10-07 17:12:33.422 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m169666995278683a  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjp7ImlkIjoyLCJwaG9uZSI6IjEzOTUxOTA1MTcyIiwicGFzc3dvcmQiOiIxMjMxMjMiLCJuaWNrbmFtZSI6IkluZmluaXR5WDciLCJyb2xlcyI6InVzZXIiLCJhdmF0YXJVcmwiOiJodHRwczovL2kyLjEwMDAyNC54eXovMjAyMy8wMS8yNi8zZXh6amwud2VicCIsImJvbnVzIjozNTAsImNyZWF0ZVRpbWUiOjE2OTUwMDQ3MzEsInVwZGF0ZVRpbWUiOjE2OTUwMTE5MzF9fQ.RxvCOiGEQPsV_7NghS-yNKuE2EXqV8i4VcXCUXMISGI","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3exzjl.webp","bonus":350,"createTime":1695004731000,"id":2,"nickname":"InfinityX7","roles":"user","updateTime":1695011931000}},"success":true}
+2023-10-07 17:12:33.422 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m169666995278683a  [0;39m -------------结束耗时：636ms -----
