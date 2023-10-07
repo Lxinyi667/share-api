@@ -1,0 +1,58 @@
+2023-10-07 10:31:06.319 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 37048 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 10:31:06.321 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 10:31:06.425 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 10:31:06.426 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 10:31:06.427 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 10:31:06.436 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 10:31:06.436 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 113 ms
+2023-10-07 10:31:06.475 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 10:31:06.481 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 10:31:06.484 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 0.239 seconds (process running for 71.785)
+2023-10-07 10:31:06.485 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-07 10:31:06.486 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 10:31:06.486 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 10:31:43.400 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-07 10:31:43.424 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-07 10:31:43.476 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 37048 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 10:31:43.476 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 10:31:43.559 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 10:31:43.559 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 10:31:43.560 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 10:31:43.567 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 10:31:43.568 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 90 ms
+2023-10-07 10:31:43.604 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 10:31:43.610 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 10:31:43.613 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 0.157 seconds (process running for 108.914)
+2023-10-07 10:31:43.614 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-07 10:31:43.615 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 10:31:43.615 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 10:32:03.252 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-07 10:32:03.273 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-07 10:32:03.317 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 37048 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 10:32:03.317 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 10:32:03.395 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 10:32:03.395 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 10:32:03.395 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 10:32:03.406 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 10:32:03.407 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 89 ms
+2023-10-07 10:32:03.437 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 10:32:03.443 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 10:32:03.446 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 0.148 seconds (process running for 128.746)
+2023-10-07 10:32:03.446 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-07 10:32:03.447 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 10:32:03.447 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 10:32:17.026 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
+2023-10-07 10:32:17.047 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-07 10:32:17.095 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 37048 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 10:32:17.095 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 10:32:17.190 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 10:32:17.191 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 10:32:17.191 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 10:32:17.202 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 10:32:17.202 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 106 ms
+2023-10-07 10:32:17.233 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 10:32:17.238 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 10:32:17.242 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 0.165 seconds (process running for 142.542)
+2023-10-07 10:32:17.242 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-07 10:32:17.242 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 10:32:17.244 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
