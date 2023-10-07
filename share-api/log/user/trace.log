@@ -315,3 +315,41 @@
 2023-10-07 11:27:44.506 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696649264465kk6  [0;39m 请求参数：[]
 2023-10-07 11:27:44.508 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696649264465kk6  [0;39m 返回结果："Hello Wrold!"
 2023-10-07 11:27:44.508 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696649264465kk6  [0;39m -------------结束耗时：43ms -----
+2023-10-07 11:44:55.953 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696650295953jcd  [0;39m -------开始-------
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696650295953jcd  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696650295953jcd  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696650295953jcd  [0;39m 远程地址：127.0.0.1
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696650295953jcd  [0;39m 请求参数：[]
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696650295953jcd  [0;39m 返回结果："Hello Wrold!"
+2023-10-07 11:44:55.954 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696650295953jcd  [0;39m -------------结束耗时：1ms -----
+2023-10-07 11:52:17.408 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696650737408g02  [0;39m -------开始-------
+2023-10-07 11:52:17.409 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696650737408g02  [0;39m 请求地址：http://127.0.0.1:8001/user-service/helloGET
+2023-10-07 11:52:17.409 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696650737408g02  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-07 11:52:17.410 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696650737408g02  [0;39m 远程地址：127.0.0.1
+2023-10-07 11:52:17.410 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696650737408g02  [0;39m 请求参数：[]
+2023-10-07 11:52:17.410 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696650737408g02  [0;39m 返回结果："Hello Wrold!"
+2023-10-07 11:52:17.410 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696650737408g02  [0;39m -------------结束耗时：2ms -----
+2023-10-07 11:53:01.059 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 34188 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:53:01.062 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:53:01.832 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:53:01.842 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:53:01.844 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:53:01.845 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:53:01.921 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:53:01.922 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 829 ms
+2023-10-07 11:53:02.007 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 11:53:02.335 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:53:02.355 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:53:02.361 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 1.658 seconds (process running for 2.11)
+2023-10-07 11:53:02.363 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:53:02.364 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:53:07.697 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 11:53:07.697 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 11:53:07.698 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-07 11:53:07.724 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16966507877191uc  [0;39m -------开始-------
+2023-10-07 11:53:07.725 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16966507877191uc  [0;39m 请求地址：http://127.0.0.1:8001/user-service/helloGET
+2023-10-07 11:53:07.725 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16966507877191uc  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-07 11:53:07.725 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16966507877191uc  [0;39m 远程地址：127.0.0.1
+2023-10-07 11:53:07.760 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16966507877191uc  [0;39m 请求参数：[]
+2023-10-07 11:53:07.761 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16966507877191uc  [0;39m 返回结果："Hello Wrold!"
+2023-10-07 11:53:07.761 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16966507877191uc  [0;39m -------------结束耗时：42ms -----
