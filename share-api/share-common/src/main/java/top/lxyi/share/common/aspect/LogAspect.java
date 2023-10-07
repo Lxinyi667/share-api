@@ -1,4 +1,4 @@
-package top.lxyi.share.user.aspect;
+package top.lxyi.share.common.aspect;
 
 import cn.hutool.core.util.RandomUtil;
 import com.alibaba.fastjson.JSONObject;

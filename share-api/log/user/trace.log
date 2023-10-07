@@ -211,3 +211,107 @@
 2023-10-07 11:16:26.380 INFO  top.lxyi.share.user.aspect.LogAspect              :71   [32m16966485863395e3  [0;39m 请求参数：[]
 2023-10-07 11:16:26.380 INFO  top.lxyi.share.user.aspect.LogAspect              :82   [32m16966485863395e3  [0;39m 返回结果："Hello Wrold!"
 2023-10-07 11:16:26.380 INFO  top.lxyi.share.user.aspect.LogAspect              :83   [32m16966485863395e3  [0;39m -------------结束耗时：41ms -----
+2023-10-07 11:24:37.306 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-07 11:24:37.331 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:24:37.331 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-07 11:24:37.332 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-07 11:24:37.335 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:24:37.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:24:37.385 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 31536 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:24:37.385 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:24:37.511 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:24:37.512 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:24:37.513 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:24:37.513 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:24:37.528 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:24:37.529 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 141 ms
+2023-10-07 11:24:37.586 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 11:24:37.590 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:24:37.593 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:24:37.596 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 0.235 seconds (process running for 501.28)
+2023-10-07 11:24:37.600 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2023-10-07 11:24:37.600 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:24:37.601 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:25:40.846 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 40844 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:25:40.847 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:25:40.882 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-07 11:25:40.883 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-07 11:25:41.566 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:25:41.572 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:25:41.574 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:25:41.574 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:25:41.614 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:25:41.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 730 ms
+2023-10-07 11:25:41.861 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 11:25:41.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:25:41.889 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:25:41.897 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 1.408 seconds (process running for 1.923)
+2023-10-07 11:25:41.899 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:25:41.899 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:25:56.787 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 11:25:56.787 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 11:25:56.789 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 2 ms
+2023-10-07 11:26:03.150 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 34404 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:26:03.152 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:26:03.188 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-07 11:26:03.188 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-07 11:26:03.921 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:26:03.927 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:26:03.928 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:26:03.928 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:26:03.968 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:26:03.968 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 780 ms
+2023-10-07 11:26:04.227 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-07 11:26:04.241 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:26:04.258 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:26:04.266 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 1.484 seconds (process running for 2.037)
+2023-10-07 11:26:04.270 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:26:04.270 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:27:16.040 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 22216 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:27:16.042 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:27:16.901 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:27:16.908 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:27:16.910 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:27:16.910 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:27:16.974 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:27:16.975 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 900 ms
+2023-10-07 11:27:17.062 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 11:27:17.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:27:17.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:27:17.453 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 1.783 seconds (process running for 2.268)
+2023-10-07 11:27:17.462 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:27:17.463 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:27:20.796 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 11:27:20.797 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 11:27:20.797 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-07 11:27:20.823 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696649240818vgn  [0;39m -------开始-------
+2023-10-07 11:27:20.824 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696649240818vgn  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
+2023-10-07 11:27:20.824 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696649240818vgn  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-07 11:27:20.824 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696649240818vgn  [0;39m 远程地址：127.0.0.1
+2023-10-07 11:27:20.858 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696649240818vgn  [0;39m 请求参数：[]
+2023-10-07 11:27:20.858 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696649240818vgn  [0;39m 返回结果："Hello Wrold!"
+2023-10-07 11:27:20.858 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696649240818vgn  [0;39m -------------结束耗时：40ms -----
+2023-10-07 11:27:33.106 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 40268 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-07 11:27:33.108 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-07 11:27:33.922 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-07 11:27:33.929 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:27:33.931 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-07 11:27:33.932 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-07 11:27:34.009 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-07 11:27:34.010 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 870 ms
+2023-10-07 11:27:34.073 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-07 11:27:34.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-07 11:27:34.444 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-07 11:27:34.449 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 1.723 seconds (process running for 2.202)
+2023-10-07 11:27:34.451 INFO  top.lxyi.share.user.config.UserApplication        :16   [32m                  [0;39m 启动成功！！
+2023-10-07 11:27:34.452 INFO  top.lxyi.share.user.config.UserApplication        :17   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-07 11:27:44.439 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-07 11:27:44.439 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-07 11:27:44.440 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2023-10-07 11:27:44.470 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696649264465kk6  [0;39m -------开始-------
+2023-10-07 11:27:44.472 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696649264465kk6  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
+2023-10-07 11:27:44.472 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696649264465kk6  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-07 11:27:44.472 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696649264465kk6  [0;39m 远程地址：127.0.0.1
+2023-10-07 11:27:44.506 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696649264465kk6  [0;39m 请求参数：[]
+2023-10-07 11:27:44.508 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696649264465kk6  [0;39m 返回结果："Hello Wrold!"
+2023-10-07 11:27:44.508 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696649264465kk6  [0;39m -------------结束耗时：43ms -----
