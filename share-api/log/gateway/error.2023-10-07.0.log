@@ -1,4 +1,46 @@
-2023-10-08 13:53:02.371 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [4ad25c42-1]  500 Server Error for HTTP GET "/user-service/user/count"
+2023-10-07 18:14:14.812 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2023-10-07 18:14:42.828 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2023-10-07 18:15:34.405 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2023-10-07 18:55:54.644 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [7e3daa3d-7]  500 Server Error for HTTP GET "/user-service/user/count"
 cn.hutool.jwt.JWTException: The token was expected 3 parts, but got 1.
 	at cn.hutool.jwt.JWT.splitToken(JWT.java:404)
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
