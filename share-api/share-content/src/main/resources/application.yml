@@ -1,24 +1,15 @@
 server:
-  port: 8000
+  port: 8002
   servlet:
-    context-path: /user-service
+    context-path: /content-service
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/user_center?characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/content_center?characterEncoding=UTF8&autoReconnect=true&serverTimezone=Asia/Shanghai
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-  cloud:
-    gateway:
-      routes:
-        - id: route-user
-          uri: http://127.0.0.1:8001
-          predicates:
-            - Path=/user-service/**
-        - id: route-content
-          uri: http://127.0.0.1:8002
-          predicates:
-            - Path=/content-service/**
+
+
 logging:
   level:
     top.lxyi.share.user.mapper: debug

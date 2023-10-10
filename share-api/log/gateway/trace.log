@@ -499,3 +499,172 @@ Action:
 
 Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
 
+2023-10-08 20:33:27.745 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-08 20:33:27.774 INFO  top.lxyi.share.gateway.ShareGatewayApplication    :51   [32m                  [0;39m Starting ShareGatewayApplication using Java 17.0.6 with PID 21560 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-08 20:33:27.775 INFO  top.lxyi.share.gateway.ShareGatewayApplication    :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-08 20:33:27.809 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-08 20:33:27.809 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-08 20:33:28.360 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-08 20:33:29.194 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-08 20:33:29.195 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-08 20:33:29.335 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-08 20:33:29.890 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-10-08 20:33:29.904 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-08 20:33:29.917 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
+
+2023-10-08 21:04:30.295 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-08 21:04:30.325 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 12660 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-08 21:04:30.325 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-08 21:04:30.363 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-08 21:04:30.364 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-08 21:04:30.883 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-08 21:04:31.623 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-08 21:04:31.623 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-08 21:04:31.623 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-08 21:04:31.624 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-08 21:04:31.624 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-08 21:04:31.624 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-08 21:04:31.625 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-08 21:04:31.625 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-08 21:04:31.625 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-08 21:04:31.625 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-08 21:04:31.626 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-08 21:04:31.626 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-08 21:04:31.626 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-08 21:04:31.626 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-08 21:04:31.792 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-08 21:04:32.193 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-08 21:04:32.564 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 2.822 seconds (process running for 4.718)
+2023-10-08 21:04:32.567 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-08 21:04:32.568 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-08 21:09:53.055 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:11:16.668 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:17:19.534 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:17:19.535 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:17:19.534 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:17:19.535 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:18:52.114 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:18:52.115 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:18:52.115 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:18:52.115 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:18:53.196 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:18:53.196 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:18:53.196 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:18:53.197 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:20:21.592 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:20:21.593 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:20:21.593 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:20:21.594 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:20:25.091 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:20:25.091 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:20:25.091 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:20:25.092 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:20:33.480 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:20:33.482 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:20:33.482 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:20:33.483 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:20:49.701 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:20:49.701 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:20:49.702 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:20:49.703 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:24:20.978 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:24:20.978 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:24:20.978 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:24:20.978 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:25:06.297 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:25:06.297 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:25:06.298 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:25:06.300 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:30:34.101 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:30:34.101 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:30:34.102 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:30:34.102 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:31:52.020 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:31:52.020 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:31:52.020 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:31:52.020 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:32:21.977 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-08 21:32:22.016 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 17780 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-08 21:32:22.018 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-08 21:32:22.062 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-08 21:32:22.062 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-08 21:32:22.728 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-08 21:32:23.477 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-08 21:32:23.477 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-08 21:32:23.478 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-08 21:32:23.479 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-08 21:32:23.639 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-08 21:32:24.084 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-08 21:32:24.498 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 3.095 seconds (process running for 7.564)
+2023-10-08 21:32:24.501 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-08 21:32:24.502 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-08 21:32:34.143 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:32:34.143 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/content-service/share/notice
+2023-10-08 21:32:34.144 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:null
+2023-10-08 21:32:34.144 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :38   [32m                  [0;39m token为空，请求被拦截
+2023-10-08 21:34:02.715 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-08 21:34:02.747 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 10364 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-08 21:34:02.748 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-08 21:34:02.782 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-08 21:34:02.783 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-08 21:34:03.291 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-08 21:34:03.976 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-08 21:34:03.977 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-08 21:34:03.978 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-08 21:34:03.979 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-08 21:34:04.135 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-08 21:34:04.581 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-08 21:34:05.003 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 2.816 seconds (process running for 3.392)
+2023-10-08 21:34:05.008 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-08 21:34:05.009 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-08 21:34:09.065 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:34:09.065 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-08 21:38:06.619 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-08 21:38:06.620 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-08 21:38:14.742 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list

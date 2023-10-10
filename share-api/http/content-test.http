@@ -1,2 +1,6 @@
 GET http://localhost:8000/content-service/share/notice
 Accept: application/json
+
+###
+GET http://localhost:8000/content-service/share/list
+Accept: application/json
