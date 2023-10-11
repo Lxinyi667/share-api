@@ -31,3 +31,11 @@ Content-Type: application/json
   "phone": "13951905172",
   "password": "888888"
 }
+###
+GET http://localhost:8000/content-service/share/notice
+Accept: application/json
+
+###
+GET http://localhost:8000/content-service/share/list
+Accept: application/json
+token: {{token}}

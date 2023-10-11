@@ -1,0 +1,60 @@
+2023-10-08 14:08:53.127 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' in your configuration.
+
+2023-10-08 14:09:52.157 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' in your configuration.
+
+2023-10-08 14:10:28.052 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' in your configuration.
+
+2023-10-08 14:30:24.735 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'top.lxyi.share.common.interceptor.LogInterceptor' in your configuration.
+

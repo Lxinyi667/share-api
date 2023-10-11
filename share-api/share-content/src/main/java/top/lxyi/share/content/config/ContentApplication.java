@@ -16,7 +16,7 @@ public class ContentApplication {
         SpringApplication app=new SpringApplication(ContentApplication.class);
         Environment env=app.run(args).getEnvironment();
         log.info("Content启动成功！！");
-        log.info("测试地址：http:///127.0.0.1:{}{}/hello",env.getProperty("server.port"),env.getProperty("server.servlet.context-path"));
+        log.info("测试地址：http:///127.0.0.1:{}{}/share",env.getProperty("server.port"),env.getProperty("server.servlet.context-path"));
     }
 }
 
