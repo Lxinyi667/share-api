@@ -1,391 +1,453 @@
-2023-10-11 00:06:04.203 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696953964202xdv  [0;39m -------开始-------
-2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696953964202xdv  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696953964202xdv  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696953964202xdv  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696953964202xdv  [0;39m 请求参数：[{}]
-2023-10-11 00:06:04.217 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:06:04.218 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:06:04.220 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m <==      Total: 1
-2023-10-11 00:06:04.220 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696953964202xdv  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTM5NjQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDUzOTY0LCJpYXQiOjE2OTY5NTM5NjR9.bds5Z_y_J25CvKgBhjgXmF97iYqKkCJWiKCzx3iPVBU
-2023-10-11 00:06:04.221 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696953964202xdv  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTM5NjQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDUzOTY0LCJpYXQiOjE2OTY5NTM5NjR9.bds5Z_y_J25CvKgBhjgXmF97iYqKkCJWiKCzx3iPVBU","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:06:04.221 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696953964202xdv  [0;39m -------------结束耗时：18ms -----
-2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954192439kqz  [0;39m -------开始-------
-2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954192439kqz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954192439kqz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954192439kqz  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:09:52.441 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954192439kqz  [0;39m 请求参数：[{}]
-2023-10-11 00:09:52.442 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:09:52.443 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:09:52.444 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m <==      Total: 1
-2023-10-11 00:09:52.445 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954192439kqz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQxOTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MTkyLCJpYXQiOjE2OTY5NTQxOTJ9.Zgg2BSlVxI4TOJ9B5ilWyzuw9dD2sdOSZFnF9xsATCY
-2023-10-11 00:09:52.446 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954192439kqz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQxOTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MTkyLCJpYXQiOjE2OTY5NTQxOTJ9.Zgg2BSlVxI4TOJ9B5ilWyzuw9dD2sdOSZFnF9xsATCY","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:09:52.446 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954192439kqz  [0;39m -------------结束耗时：7ms -----
-2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954212433j8g  [0;39m -------开始-------
-2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954212433j8g  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954212433j8g  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954212433j8g  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954212433j8g  [0;39m 请求参数：[{}]
-2023-10-11 00:10:12.436 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:10:12.436 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:10:12.437 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m <==      Total: 1
-2023-10-11 00:10:12.437 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954212433j8g  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM
-2023-10-11 00:10:12.439 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954212433j8g  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:10:12.439 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954212433j8g  [0;39m -------------结束耗时：5ms -----
-2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954253575yk6  [0;39m -------开始-------
-2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954253575yk6  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
-2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954253575yk6  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
-2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954253575yk6  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954253575yk6  [0;39m 请求参数：[]
-2023-10-11 00:10:53.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
-2023-10-11 00:10:53.577 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m ==> Parameters: 
-2023-10-11 00:10:53.577 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m <==      Total: 1
-2023-10-11 00:10:53.577 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954253575yk6  [0;39m 返回结果：{"data":2,"success":true}
-2023-10-11 00:10:53.579 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954253575yk6  [0;39m -------------结束耗时：4ms -----
-2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954299828w9l  [0;39m -------开始-------
-2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954299828w9l  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
-2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954299828w9l  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
-2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954299828w9l  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:11:39.829 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954299828w9l  [0;39m 请求参数：[]
-2023-10-11 00:11:39.829 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
-2023-10-11 00:11:39.830 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m ==> Parameters: 
-2023-10-11 00:11:39.831 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m <==      Total: 1
-2023-10-11 00:11:39.831 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954299828w9l  [0;39m 返回结果：{"data":2,"success":true}
-2023-10-11 00:11:39.831 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954299828w9l  [0;39m -------------结束耗时：3ms -----
-2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16969544851600r8  [0;39m -------开始-------
-2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16969544851600r8  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16969544851600r8  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16969544851600r8  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16969544851600r8  [0;39m 请求参数：[{}]
-2023-10-11 00:14:45.163 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:14:45.163 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:14:45.165 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m <==      Total: 1
-2023-10-11 00:14:45.165 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16969544851600r8  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ0ODUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0NDg1LCJpYXQiOjE2OTY5NTQ0ODV9.G3GZnkbNPpiTDCW7kLAHx8T3MSMCPYuBNnAXtRYLuhQ
-2023-10-11 00:14:45.166 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16969544851600r8  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ0ODUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0NDg1LCJpYXQiOjE2OTY5NTQ0ODV9.G3GZnkbNPpiTDCW7kLAHx8T3MSMCPYuBNnAXtRYLuhQ","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:14:45.166 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16969544851600r8  [0;39m -------------结束耗时：5ms -----
-2023-10-11 00:17:35.937 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2023-10-11 00:17:35.941 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2023-10-11 00:17:38.342 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-11 00:17:38.370 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 28160 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
-2023-10-11 00:17:38.371 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-11 00:17:39.373 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2023-10-11 00:17:39.379 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2023-10-11 00:17:39.381 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2023-10-11 00:17:39.381 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-11 00:17:39.456 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-11 00:17:39.456 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1051 ms
-2023-10-11 00:17:39.770 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
-2023-10-11 00:17:40.163 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2023-10-11 00:17:40.178 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
-2023-10-11 00:17:40.185 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.193 seconds (process running for 2.763)
-2023-10-11 00:17:40.187 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
-2023-10-11 00:17:40.188 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
-2023-10-11 00:17:52.008 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-11 00:17:52.009 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2023-10-11 00:17:52.010 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
-2023-10-11 00:17:52.118 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954672022ptp  [0;39m -------开始-------
-2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954672022ptp  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954672022ptp  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954672022ptp  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:17:52.171 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954672022ptp  [0;39m 请求参数：[{}]
-2023-10-11 00:17:52.243 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1696954672022ptp  [0;39m HikariPool-1 - Starting...
-2023-10-11 00:17:52.540 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1696954672022ptp  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e6cd134
-2023-10-11 00:17:52.541 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1696954672022ptp  [0;39m HikariPool-1 - Start completed.
-2023-10-11 00:17:52.548 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:17:52.570 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:17:52.589 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m <==      Total: 1
-2023-10-11 00:17:52.650 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954672022ptp  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ2NzIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NDcyLCJpYXQiOjE2OTY5NTQ2NzJ9.QGLhJNOfBzv2AY-24o5ouYWikBl6y3wxLmLOtcOWfuQ
-2023-10-11 00:17:52.659 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954672022ptp  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ2NzIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NDcyLCJpYXQiOjE2OTY5NTQ2NzJ9.QGLhJNOfBzv2AY-24o5ouYWikBl6y3wxLmLOtcOWfuQ","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:17:52.659 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954672022ptp  [0;39m -------------结束耗时：541ms -----
-2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954825187yh5  [0;39m -------开始-------
-2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954825187yh5  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954825187yh5  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954825187yh5  [0;39m 远程地址：127.0.0.1
-2023-10-11 00:20:25.189 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954825187yh5  [0;39m 请求参数：[{}]
-2023-10-11 00:20:25.191 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 00:20:25.191 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 00:20:25.193 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m <==      Total: 1
-2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954825187yh5  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ4MjUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NjI1LCJpYXQiOjE2OTY5NTQ4MjV9.RLJl8ki9DF2I3ZIYH4EfxMamqhd01qFquMcE1nVh_wM
-2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954825187yh5  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ4MjUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NjI1LCJpYXQiOjE2OTY5NTQ4MjV9.RLJl8ki9DF2I3ZIYH4EfxMamqhd01qFquMcE1nVh_wM","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954825187yh5  [0;39m -------------结束耗时：6ms -----
-2023-10-11 04:29:50.320 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m56s623ms531µs900ns).
-2023-10-11 07:07:42.917 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h37m54s941ms327µs300ns).
-2023-10-11 08:52:18.343 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m5s323ms754µs100ns).
-2023-10-11 09:11:38.109 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2023-10-11 09:11:38.121 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2023-10-11 09:12:05.084 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-11 09:12:05.117 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 36376 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
-2023-10-11 09:12:05.118 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-11 09:12:06.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2023-10-11 09:12:06.357 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2023-10-11 09:12:06.359 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2023-10-11 09:12:06.359 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-11 09:12:06.465 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-11 09:12:06.466 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1302 ms
-2023-10-11 09:12:06.886 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
-2023-10-11 09:12:07.607 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2023-10-11 09:12:07.632 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
-2023-10-11 09:12:07.644 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.998 seconds (process running for 3.572)
-2023-10-11 09:12:07.647 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
-2023-10-11 09:12:07.648 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
-2023-10-11 09:25:51.561 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-11 09:25:51.562 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2023-10-11 09:25:51.563 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
-2023-10-11 09:25:51.706 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987551583t2p  [0;39m -------开始-------
-2023-10-11 09:25:51.706 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987551583t2p  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:25:51.707 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987551583t2p  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:25:51.707 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987551583t2p  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:25:51.774 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987551583t2p  [0;39m 请求参数：[{}]
-2023-10-11 09:25:51.852 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1696987551583t2p  [0;39m HikariPool-1 - Starting...
-2023-10-11 09:25:52.237 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1696987551583t2p  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@125c9ab4
-2023-10-11 09:25:52.240 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1696987551583t2p  [0;39m HikariPool-1 - Start completed.
-2023-10-11 09:25:52.248 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:25:52.278 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:25:52.318 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m <==      Total: 1
-2023-10-11 09:25:52.410 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987551583t2p  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc1NTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwMzUyLCJpYXQiOjE2OTY5ODc1NTJ9.zzKCiCXaXEh5BjmT7zOgQrwEDT7op03d9Bqv7C6E8Rw
-2023-10-11 09:25:52.421 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987551583t2p  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc1NTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwMzUyLCJpYXQiOjE2OTY5ODc1NTJ9.zzKCiCXaXEh5BjmT7zOgQrwEDT7op03d9Bqv7C6E8Rw","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:25:52.421 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987551583t2p  [0;39m -------------结束耗时：716ms -----
-2023-10-11 09:26:56.419 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987616417akv  [0;39m -------开始-------
-2023-10-11 09:26:56.420 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987616417akv  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:26:56.421 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987616417akv  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:26:56.422 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987616417akv  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:26:56.422 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987616417akv  [0;39m 请求参数：[{}]
-2023-10-11 09:26:56.425 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:26:56.428 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:26:56.432 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m <==      Total: 1
-2023-10-11 09:26:56.434 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987616417akv  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc2MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNDE2LCJpYXQiOjE2OTY5ODc2MTZ9.EcL0dKnoqi60SQ9FSgZxB0W2RJk6jjnx5ed3sK1Z0Ok
-2023-10-11 09:26:56.435 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987616417akv  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc2MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNDE2LCJpYXQiOjE2OTY5ODc2MTZ9.EcL0dKnoqi60SQ9FSgZxB0W2RJk6jjnx5ed3sK1Z0Ok","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:26:56.435 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987616417akv  [0;39m -------------结束耗时：16ms -----
-2023-10-11 09:28:36.117 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987716116yn2  [0;39m -------开始-------
-2023-10-11 09:28:36.117 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987716116yn2  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987716116yn2  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987716116yn2  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987716116yn2  [0;39m 请求参数：[{}]
-2023-10-11 09:28:36.120 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:28:36.121 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:28:36.123 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m <==      Total: 1
-2023-10-11 09:28:36.125 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987716116yn2  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc3MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNTE2LCJpYXQiOjE2OTY5ODc3MTZ9.tk33if8IS-ev3WB5o_gupqnrAJrq5Us3oZSiUN4U4_o
-2023-10-11 09:28:36.126 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987716116yn2  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc3MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNTE2LCJpYXQiOjE2OTY5ODc3MTZ9.tk33if8IS-ev3WB5o_gupqnrAJrq5Us3oZSiUN4U4_o","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:28:36.126 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987716116yn2  [0;39m -------------结束耗时：9ms -----
-2023-10-11 09:30:19.234 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987819233l02  [0;39m -------开始-------
-2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987819233l02  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987819233l02  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987819233l02  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987819233l02  [0;39m 请求参数：[{}]
-2023-10-11 09:30:19.237 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:30:19.238 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:30:19.241 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m <==      Total: 1
-2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987819233l02  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc4MTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNjE5LCJpYXQiOjE2OTY5ODc4MTl9.x4s1zozE_MCjVa0YDBe5wcgAFoXdjMd2WCKez6MkThA
-2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987819233l02  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc4MTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNjE5LCJpYXQiOjE2OTY5ODc4MTl9.x4s1zozE_MCjVa0YDBe5wcgAFoXdjMd2WCKez6MkThA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987819233l02  [0;39m -------------结束耗时：8ms -----
-2023-10-11 09:31:55.935 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987915933m8p  [0;39m -------开始-------
-2023-10-11 09:31:55.935 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987915933m8p  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:31:55.936 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987915933m8p  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:31:55.936 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987915933m8p  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:31:55.937 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987915933m8p  [0;39m 请求参数：[{}]
-2023-10-11 09:31:55.939 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:31:55.940 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:31:55.942 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m <==      Total: 1
-2023-10-11 09:31:55.943 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987915933m8p  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc5MTUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNzE1LCJpYXQiOjE2OTY5ODc5MTV9.kylyXBzSd2tIUtz5v20ARGVF1VEHAyQeSFTJoojqdWo
-2023-10-11 09:31:55.944 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987915933m8p  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc5MTUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNzE1LCJpYXQiOjE2OTY5ODc5MTV9.kylyXBzSd2tIUtz5v20ARGVF1VEHAyQeSFTJoojqdWo","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:31:55.944 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987915933m8p  [0;39m -------------结束耗时：10ms -----
-2023-10-11 09:37:27.311 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696988247310x0c  [0;39m -------开始-------
-2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696988247310x0c  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696988247310x0c  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696988247310x0c  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696988247310x0c  [0;39m 请求参数：[{}]
-2023-10-11 09:37:27.317 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:37:27.318 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:37:27.320 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m <==      Total: 1
-2023-10-11 09:37:27.321 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696988247310x0c  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgyNDcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMDQ3LCJpYXQiOjE2OTY5ODgyNDd9.DMmhmmlHeS1IZS0xwUkIRcdqG9BRK4xrRMGBLg8TaxA
-2023-10-11 09:37:27.321 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696988247310x0c  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgyNDcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMDQ3LCJpYXQiOjE2OTY5ODgyNDd9.DMmhmmlHeS1IZS0xwUkIRcdqG9BRK4xrRMGBLg8TaxA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:37:27.322 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696988247310x0c  [0;39m -------------结束耗时：11ms -----
-2023-10-11 09:38:56.458 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16969883364563lh  [0;39m -------开始-------
-2023-10-11 09:38:56.459 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16969883364563lh  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16969883364563lh  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16969883364563lh  [0;39m 远程地址：127.0.0.1
-2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16969883364563lh  [0;39m 请求参数：[{}]
-2023-10-11 09:38:56.463 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 09:38:56.463 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 09:38:56.466 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m <==      Total: 1
-2023-10-11 09:38:56.467 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16969883364563lh  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgzMzYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMTM2LCJpYXQiOjE2OTY5ODgzMzZ9.0oJP1ZmcCJABS0JJtcgWOvc6-Ws9MlsBA2x6Tq9S8R0
-2023-10-11 09:38:56.468 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16969883364563lh  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgzMzYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMTM2LCJpYXQiOjE2OTY5ODgzMzZ9.0oJP1ZmcCJABS0JJtcgWOvc6-Ws9MlsBA2x6Tq9S8R0","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 09:38:56.468 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16969883364563lh  [0;39m -------------结束耗时：10ms -----
-2023-10-11 11:45:16.939 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h2m24s421ms650µs800ns).
-2023-10-11 12:04:16.269 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696997056258f7c  [0;39m -------开始-------
-2023-10-11 12:04:16.272 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696997056258f7c  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 12:04:16.272 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696997056258f7c  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 12:04:16.273 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696997056258f7c  [0;39m 远程地址：127.0.0.1
-2023-10-11 12:04:16.274 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696997056258f7c  [0;39m 请求参数：[{}]
-2023-10-11 12:04:16.287 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 12:04:16.291 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 12:04:16.298 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m <==      Total: 1
-2023-10-11 12:04:16.303 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696997056258f7c  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5OTcwNTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTY5ODU2LCJpYXQiOjE2OTY5OTcwNTZ9.yeM0e39hwQ4uQzu8bcjtH5rKcINrGSYc14kVYqjki1w
-2023-10-11 12:04:16.303 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696997056258f7c  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5OTcwNTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTY5ODU2LCJpYXQiOjE2OTY5OTcwNTZ9.yeM0e39hwQ4uQzu8bcjtH5rKcINrGSYc14kVYqjki1w","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 12:04:16.304 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696997056258f7c  [0;39m -------------结束耗时：35ms -----
-2023-10-11 13:11:06.043 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697001066032wjo  [0;39m -------开始-------
-2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697001066032wjo  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697001066032wjo  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697001066032wjo  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:11:06.050 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697001066032wjo  [0;39m 请求参数：[{}]
-2023-10-11 13:11:06.060 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:11:06.062 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 13:11:06.068 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m <==      Total: 1
-2023-10-11 13:11:06.070 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697001066032wjo  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEwNjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTczODY2LCJpYXQiOjE2OTcwMDEwNjZ9.MBu-OgvIFUEpemzlq5zr2f1KetosJeAqFjci5EBAhEY
-2023-10-11 13:11:06.071 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697001066032wjo  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEwNjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTczODY2LCJpYXQiOjE2OTcwMDEwNjZ9.MBu-OgvIFUEpemzlq5zr2f1KetosJeAqFjci5EBAhEY","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 13:11:06.071 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697001066032wjo  [0;39m -------------结束耗时：28ms -----
-2023-10-11 13:15:57.899 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697001357897kbe  [0;39m -------开始-------
-2023-10-11 13:15:57.899 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697001357897kbe  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697001357897kbe  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697001357897kbe  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697001357897kbe  [0;39m 请求参数：[{}]
-2023-10-11 13:15:57.901 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:15:57.902 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 13:15:57.903 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m <==      Total: 1
-2023-10-11 13:15:57.904 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697001357897kbe  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEzNTcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc0MTU3LCJpYXQiOjE2OTcwMDEzNTd9.EsEAcQBRHGPfN6CWCW5boN6epDQLaM12N62LhnOlr48
-2023-10-11 13:15:57.904 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697001357897kbe  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEzNTcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc0MTU3LCJpYXQiOjE2OTcwMDEzNTd9.EsEAcQBRHGPfN6CWCW5boN6epDQLaM12N62LhnOlr48","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 13:15:57.905 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697001357897kbe  [0;39m -------------结束耗时：6ms -----
-2023-10-11 13:32:39.639 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970023596388q4  [0;39m -------开始-------
-2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970023596388q4  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970023596388q4  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970023596388q4  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970023596388q4  [0;39m 请求参数：[{}]
-2023-10-11 13:32:39.642 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:32:39.643 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 13:32:39.644 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m <==      Total: 1
-2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16970023596388q4  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDIzNTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MTU5LCJpYXQiOjE2OTcwMDIzNTl9.DrdvjTu_dCHf2Y6iGIL4nWIn76Y8WivIEWXHZ1AaSlg
-2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970023596388q4  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDIzNTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MTU5LCJpYXQiOjE2OTcwMDIzNTl9.DrdvjTu_dCHf2Y6iGIL4nWIn76Y8WivIEWXHZ1AaSlg","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970023596388q4  [0;39m -------------结束耗时：6ms -----
-2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970024345736dz  [0;39m -------开始-------
-2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970024345736dz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970024345736dz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 13:33:54.575 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970024345736dz  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:33:54.575 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970024345736dz  [0;39m 请求参数：[{}]
-2023-10-11 13:33:54.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:33:54.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 13:33:54.578 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m <==      Total: 1
-2023-10-11 13:33:54.579 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16970024345736dz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI0MzQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MjM0LCJpYXQiOjE2OTcwMDI0MzR9.Rl2599rgenJhi2SXn99N_L6E4POLki84qIkhSdOYnPA
-2023-10-11 13:33:54.579 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970024345736dz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI0MzQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MjM0LCJpYXQiOjE2OTcwMDI0MzR9.Rl2599rgenJhi2SXn99N_L6E4POLki84qIkhSdOYnPA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 13:33:54.580 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970024345736dz  [0;39m -------------结束耗时：6ms -----
-2023-10-11 13:35:43.105 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002543096dkr  [0;39m -------开始-------
-2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002543096dkr  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
-2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002543096dkr  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
-2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002543096dkr  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002543096dkr  [0;39m 请求参数：[]
-2023-10-11 13:35:43.108 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002543096dkr  [0;39m 返回结果："Hello Wrold!"
-2023-10-11 13:35:43.108 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002543096dkr  [0;39m -------------结束耗时：3ms -----
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002546045ky4  [0;39m -------开始-------
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002546045ky4  [0;39m 请求地址：http://127.0.0.1:8001/user-service/helloGET
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002546045ky4  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002546045ky4  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002546045ky4  [0;39m 请求参数：[]
-2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002546045ky4  [0;39m 返回结果："Hello Wrold!"
-2023-10-11 13:35:46.046 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002546045ky4  [0;39m -------------结束耗时：1ms -----
-2023-10-11 13:35:49.595 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970025495950vc  [0;39m -------开始-------
-2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970025495950vc  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
-2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970025495950vc  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
-2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970025495950vc  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970025495950vc  [0;39m 请求参数：[]
-2023-10-11 13:35:49.601 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
-2023-10-11 13:35:49.601 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m ==> Parameters: 
-2023-10-11 13:35:49.644 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m <==      Total: 1
-2023-10-11 13:35:49.645 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970025495950vc  [0;39m 返回结果：{"data":2,"success":true}
-2023-10-11 13:35:49.646 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970025495950vc  [0;39m -------------结束耗时：51ms -----
-2023-10-11 13:35:51.808 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002551806iiz  [0;39m -------开始-------
-2023-10-11 13:35:51.808 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002551806iiz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
-2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002551806iiz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
-2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002551806iiz  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002551806iiz  [0;39m 请求参数：[{}]
-2023-10-11 13:35:51.810 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:35:51.811 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m ==> Parameters: 13951905171(String)
-2023-10-11 13:35:51.812 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m <==      Total: 1
-2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697002551806iiz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI1NTEsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MzUxLCJpYXQiOjE2OTcwMDI1NTF9.5tZh3W3VkkU6zwqKjryyq64raUn2Guj8btmE1B_y37A
-2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002551806iiz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI1NTEsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MzUxLCJpYXQiOjE2OTcwMDI1NTF9.5tZh3W3VkkU6zwqKjryyq64raUn2Guj8btmE1B_y37A","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
-2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002551806iiz  [0;39m -------------结束耗时：5ms -----
-2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002555399gx6  [0;39m -------开始-------
-2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002555399gx6  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/registerPOST
-2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002555399gx6  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.register
-2023-10-11 13:35:55.403 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002555399gx6  [0;39m 远程地址：127.0.0.1
-2023-10-11 13:35:55.403 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002555399gx6  [0;39m 请求参数：[{}]
-2023-10-11 13:35:55.406 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
-2023-10-11 13:35:55.407 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m ==> Parameters: 13951905172(String)
-2023-10-11 13:35:55.408 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m <==      Total: 1
-2023-10-11 13:35:55.421 ERROR t.l.s.common.handler.ControllerExceptionHandler   :29   [32m1697002555399gx6  [0;39m 业务异常：
-top.lxyi.share.common.exception.BusinessException: null
-	at top.lxyi.share.user.service.UserService.register(UserService.java:55)
-	at top.lxyi.share.user.controller.UserController.register(UserController.java:37)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
-	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at top.lxyi.share.common.aspect.LogAspect.doAround(LogAspect.java:76)
-	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
-	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
-	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at top.lxyi.share.user.controller.UserController$$SpringCGLIB$$0.register(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-12 09:09:52.415 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:09:52.432 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 09:09:52.522 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:09:52.536 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 27132 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 09:09:52.537 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 09:09:53.668 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=718635c2-4391-3cde-91c4-406373e8ef04
+2023-10-12 09:09:54.310 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 09:09:54.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 09:09:54.322 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 09:09:54.322 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 09:09:54.425 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 09:09:54.425 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1798 ms
+2023-10-12 09:09:54.936 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 09:09:56.204 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@5c8ab9de description = 'Spring Boot [3.1.4] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2023-10-12 09:09:56.208 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-12 09:09:56.220 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-12 09:09:56.237 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.1.4] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2023-10-12 09:11:17.938 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:11:17.946 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 09:11:17.992 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:11:18.000 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 8824 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 09:11:18.001 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 09:11:18.657 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=718635c2-4391-3cde-91c4-406373e8ef04
+2023-10-12 09:11:19.094 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 09:11:19.101 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 09:11:19.103 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 09:11:19.104 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 09:11:19.184 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 09:11:19.184 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1143 ms
+2023-10-12 09:11:19.520 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 09:11:20.486 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@3a88f6fb description = 'Spring Boot [3.1.4] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2023-10-12 09:11:20.489 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-12 09:11:20.502 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-12 09:11:20.517 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.1.4] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2023-10-12 09:25:07.959 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:25:07.969 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 09:25:08.008 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:25:08.015 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 18988 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 09:25:08.016 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 09:25:08.627 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=c9b23d8c-b440-371e-8b01-3ce3f754e5ab
+2023-10-12 09:25:09.032 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 09:25:09.038 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 09:25:09.040 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 09:25:09.040 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 09:25:09.117 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 09:25:09.118 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1060 ms
+2023-10-12 09:25:09.441 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 09:25:10.448 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@3866c96e description = 'Spring Boot [3.1.4] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2023-10-12 09:25:10.451 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-12 09:25:10.461 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-12 09:25:10.472 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.1.4] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2023-10-12 09:55:19.146 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:55:19.159 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 09:55:19.204 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:55:19.213 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 27732 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 09:55:19.214 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 09:55:19.926 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=4a297951-084f-3709-8b52-22d2d6ea6339
+2023-10-12 09:55:20.376 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 09:55:20.384 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 09:55:20.386 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 09:55:20.386 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 09:55:20.469 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 09:55:20.470 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1215 ms
+2023-10-12 09:55:20.881 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 09:55:22.028 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@d120d7c description = 'Spring Boot [3.1.4] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2023-10-12 09:55:22.032 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-12 09:55:22.045 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-12 09:55:22.061 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.1.4] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2023-10-12 09:57:42.743 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:57:42.753 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-12 09:57:42.800 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 09:57:42.810 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 7244 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 09:57:42.811 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 09:57:43.511 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=4a297951-084f-3709-8b52-22d2d6ea6339
+2023-10-12 09:57:43.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 09:57:43.944 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 09:57:43.946 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 09:57:43.946 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 09:57:44.019 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 09:57:44.020 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1164 ms
+2023-10-12 09:57:44.409 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 09:57:45.558 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'compositeCompatibilityVerifier' defined in class path resource [org/springframework/cloud/configuration/CompatibilityVerifierAutoConfiguration.class]: Failed to instantiate [org.springframework.cloud.configuration.CompositeCompatibilityVerifier]: Factory method 'compositeCompatibilityVerifier' threw exception with message: Spring Cloud/ Spring Boot version compatibility checks have failed: [[VerificationResult@30c7be6f description = 'Spring Boot [3.1.4] is not compatible with this Spring Cloud release train', action = 'Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]']]
+2023-10-12 09:57:45.562 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-10-12 09:57:45.574 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-12 09:57:45.588 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Your project setup is incompatible with our requirements due to following reasons:
+
+- Spring Boot [3.1.4] is not compatible with this Spring Cloud release train
+
+
+Action:
+
+Consider applying the following actions:
+
+- Change Spring Boot version to one of the following versions [3.0.x] .
+You can find the latest Spring Boot versions here [https://spring.io/projects/spring-boot#learn]. 
+If you want to learn more about the Spring Cloud Release train compatibility, you can visit this page [https://spring.io/projects/spring-cloud#overview] and check the [Release Trains] section.
+If you want to disable this check, just set the property [spring.cloud.compatibility-verifier.enabled=false]
+
+
+2023-10-12 10:09:10.165 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:09:10.175 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-12 10:09:10.214 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:09:10.222 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 29120 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 10:09:10.223 INFO  top.lxyi.share.user.config.UserApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 10:09:10.851 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=bc9b2903-0434-31af-9376-8c69f0e5e18e
+2023-10-12 10:09:11.214 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 10:09:11.222 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:09:11.223 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 10:09:11.223 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-10-12 10:09:11.292 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 10:09:11.293 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1026 ms
+2023-10-12 10:09:11.581 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 10:09:12.506 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:09:12.506 INFO  com.alibaba.nacos.client.naming                   :62   [32m                  [0;39m initializer namespace from ans.namespace attribute : null
+2023-10-12 10:09:12.507 INFO  com.alibaba.nacos.client.naming                   :66   [32m                  [0;39m initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2023-10-12 10:09:12.507 INFO  com.alibaba.nacos.client.naming                   :73   [32m                  [0;39m initializer namespace from namespace attribute :null
+2023-10-12 10:09:12.526 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-10-12 10:09:12.527 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-10-12 10:09:12.527 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-12 10:09:12.531 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-10-12 10:09:12.531 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-10-12 10:09:12.534 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-10-12 10:09:12.542 INFO  com.alibaba.nacos.common.remote.client            :108  [32m                  [0;39m [RpcClientFactory] create a new rpc client of 6ea16e35-3170-48eb-9142-cf29d8b1a296
+2023-10-12 10:09:12.555 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-10-12 10:09:12.555 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-10-12 10:09:12.555 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-10-12 10:09:12.557 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2023-10-12 10:09:12.582 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :182  [32m                  [0;39m grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2023-10-12 10:09:13.476 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Success to connect to server [localhost:8848] on start up, connectionId = 1697076553244_127.0.0.1_50587
+2023-10-12 10:09:13.476 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Notify connected event to listeners.
+2023-10-12 10:09:13.476 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-10-12 10:09:13.476 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-10-12 10:09:13.477 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1001/0x000000080131fda0
+2023-10-12 10:09:13.478 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:user-service, group:myGroup, clusters:DEFAULT 
+2023-10-12 10:09:13.531 INFO  com.alibaba.nacos.client.naming                   :184  [32m                  [0;39m init new ips(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:09:13.542 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:09:13.546 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:09:13.555 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path ''
+2023-10-12 10:09:13.557 INFO  com.alibaba.nacos.client.naming                   :121  [32m                  [0;39m [REGISTER-SERVICE] dev registering service user-service with instance Instance{instanceId='null', ip='10.22.242.102', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.heart.beat.timeout=15000, preserved.register.source=SPRING_CLOUD, IPv6=null, myData=abc, preserved.heart.beat.interval=5000}}
+2023-10-12 10:09:13.578 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   [32m                  [0;39m nacos registry, myGroup user-service 10.22.242.102:8001 register finished
+2023-10-12 10:09:13.758 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 4.125 seconds (process running for 4.636)
+2023-10-12 10:09:13.761 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-12 10:09:13.761 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-12 10:09:14.435 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Receive server push request, request = NotifySubscriberRequest, requestId = 1
+2023-10-12 10:09:14.437 INFO  com.alibaba.nacos.client.naming                   :235  [32m                  [0;39m new ips(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-10-12 10:09:14.437 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-10-12 10:09:14.440 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [6ea16e35-3170-48eb-9142-cf29d8b1a296] Ack server push request, request = NotifySubscriberRequest, requestId = 1
+2023-10-12 10:44:18.889 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-12 10:44:18.889 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-10-12 10:44:18.891 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-10-12 10:44:18.891 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-10-12 10:44:18.918 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :95   [32m                  [0;39m De-registering from Nacos Server now...
+2023-10-12 10:44:18.918 INFO  com.alibaba.nacos.client.naming                   :217  [32m                  [0;39m [DEREGISTER-SERVICE] dev deregistering service user-service with instance: Instance{instanceId='null', ip='10.22.242.102', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-12 10:44:18.920 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :115  [32m                  [0;39m De-registration finished.
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :256  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :136  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :138  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :258  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :204  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :143  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :145  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-10-12 10:44:18.921 INFO  com.alibaba.nacos.client.naming                   :194  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-10-12 10:44:18.921 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-12 10:44:18.922 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.client.naming                   :199  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.client.naming                   :484  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-10-12 10:44:18.922 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-12 10:44:18.922 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.client.naming                   :486  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.common.remote.client            :429  [32m                  [0;39m Shutdown rpc client, set status to shutdown
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.common.remote.client            :431  [32m                  [0;39m Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@65be3bd1[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-10-12 10:44:18.922 INFO  com.alibaba.nacos.common.remote.client            :584  [32m                  [0;39m Close current connection 1697076553244_127.0.0.1_50587
+2023-10-12 10:44:18.923 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :63   [32m                  [0;39m [1697076553244_127.0.0.1_50587]Ignore complete event,isRunning:false,isAbandon=false
+2023-10-12 10:44:18.925 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :159  [32m                  [0;39m Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4c09cc5e[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 478]
+2023-10-12 10:44:18.925 INFO  com.alibaba.nacos.client.naming                   :318  [32m                  [0;39m Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@745b64a7[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 700]
+2023-10-12 10:44:18.926 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :106  [32m                  [0;39m [null] CredentialWatcher is stopped
+2023-10-12 10:44:18.926 INFO  c.a.n.client.auth.ram.identify.CredentialService  :100  [32m                  [0;39m [null] CredentialService is freed
+2023-10-12 10:44:18.926 INFO  com.alibaba.nacos.client.naming                   :211  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-10-12 10:51:23.152 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:51:23.162 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-12 10:51:23.217 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:51:23.227 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 1816 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 10:51:23.229 INFO  top.lxyi.share.user.config.UserApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 10:51:24.050 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=bc9b2903-0434-31af-9376-8c69f0e5e18e
+2023-10-12 10:51:24.543 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 10:51:24.552 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:51:24.553 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 10:51:24.553 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-10-12 10:51:24.639 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 10:51:24.640 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1360 ms
+2023-10-12 10:51:25.008 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 10:51:26.155 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:51:26.155 INFO  com.alibaba.nacos.client.naming                   :62   [32m                  [0;39m initializer namespace from ans.namespace attribute : null
+2023-10-12 10:51:26.155 INFO  com.alibaba.nacos.client.naming                   :66   [32m                  [0;39m initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2023-10-12 10:51:26.157 INFO  com.alibaba.nacos.client.naming                   :73   [32m                  [0;39m initializer namespace from namespace attribute :null
+2023-10-12 10:51:26.177 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-10-12 10:51:26.177 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-10-12 10:51:26.179 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-12 10:51:26.183 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-10-12 10:51:26.183 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-10-12 10:51:26.186 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-10-12 10:51:26.195 INFO  com.alibaba.nacos.common.remote.client            :108  [32m                  [0;39m [RpcClientFactory] create a new rpc client of 826d3004-6997-40ac-bea4-529cdce86547
+2023-10-12 10:51:26.211 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-10-12 10:51:26.211 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-10-12 10:51:26.211 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-10-12 10:51:26.213 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2023-10-12 10:51:26.242 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :182  [32m                  [0;39m grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2023-10-12 10:51:27.100 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Success to connect to server [localhost:8848] on start up, connectionId = 1697079086922_127.0.0.1_60699
+2023-10-12 10:51:27.101 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Notify connected event to listeners.
+2023-10-12 10:51:27.101 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-10-12 10:51:27.101 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-10-12 10:51:27.102 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1001/0x0000000801321f00
+2023-10-12 10:51:27.104 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:user-service, group:myGroup, clusters:DEFAULT 
+2023-10-12 10:51:27.124 INFO  com.alibaba.nacos.client.naming                   :184  [32m                  [0;39m init new ips(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:51:27.135 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:51:27.139 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:51:27.151 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path ''
+2023-10-12 10:51:27.153 INFO  com.alibaba.nacos.client.naming                   :121  [32m                  [0;39m [REGISTER-SERVICE] dev registering service user-service with instance Instance{instanceId='null', ip='10.22.242.102', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.heart.beat.timeout=15000, preserved.register.source=SPRING_CLOUD, IPv6=null, myData=abc, preserved.heart.beat.interval=5000}}
+2023-10-12 10:51:27.162 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   [32m                  [0;39m nacos registry, myGroup user-service 10.22.242.102:8001 register finished
+2023-10-12 10:51:27.396 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 4.843 seconds (process running for 5.343)
+2023-10-12 10:51:27.399 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-12 10:51:27.400 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-12 10:51:27.641 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Receive server push request, request = NotifySubscriberRequest, requestId = 14
+2023-10-12 10:51:27.643 INFO  com.alibaba.nacos.client.naming                   :235  [32m                  [0;39m new ips(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-10-12 10:51:27.644 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-10-12 10:51:27.647 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [826d3004-6997-40ac-bea4-529cdce86547] Ack server push request, request = NotifySubscriberRequest, requestId = 14
+2023-10-12 10:53:22.366 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-10-12 10:53:22.366 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-10-12 10:53:22.367 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-10-12 10:53:22.367 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-10-12 10:53:22.408 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :95   [32m                  [0;39m De-registering from Nacos Server now...
+2023-10-12 10:53:22.408 INFO  com.alibaba.nacos.client.naming                   :217  [32m                  [0;39m [DEREGISTER-SERVICE] dev deregistering service user-service with instance: Instance{instanceId='null', ip='10.22.242.102', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-10-12 10:53:22.411 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :115  [32m                  [0;39m De-registration finished.
+2023-10-12 10:53:22.411 INFO  com.alibaba.nacos.client.naming                   :256  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :136  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :138  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :258  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :204  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :143  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :145  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-10-12 10:53:22.412 INFO  com.alibaba.nacos.client.naming                   :194  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-10-12 10:53:22.412 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-12 10:53:22.413 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-10-12 10:53:22.413 INFO  com.alibaba.nacos.client.naming                   :199  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-10-12 10:53:22.413 INFO  com.alibaba.nacos.client.naming                   :484  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-10-12 10:53:22.413 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-10-12 10:53:22.414 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-10-12 10:53:22.415 INFO  com.alibaba.nacos.client.naming                   :486  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-10-12 10:53:22.415 INFO  com.alibaba.nacos.common.remote.client            :429  [32m                  [0;39m Shutdown rpc client, set status to shutdown
+2023-10-12 10:53:22.415 INFO  com.alibaba.nacos.common.remote.client            :431  [32m                  [0;39m Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@36be5746[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-10-12 10:53:22.415 INFO  com.alibaba.nacos.common.remote.client            :584  [32m                  [0;39m Close current connection 1697079086922_127.0.0.1_60699
+2023-10-12 10:53:22.417 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :63   [32m                  [0;39m [1697079086922_127.0.0.1_60699]Ignore complete event,isRunning:false,isAbandon=false
+2023-10-12 10:53:22.418 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :159  [32m                  [0;39m Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@3224c4c7[Running, pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 46]
+2023-10-12 10:53:22.419 INFO  com.alibaba.nacos.client.naming                   :318  [32m                  [0;39m Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@53a291f9[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 38]
+2023-10-12 10:53:22.419 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :106  [32m                  [0;39m [null] CredentialWatcher is stopped
+2023-10-12 10:53:22.420 INFO  c.a.n.client.auth.ram.identify.CredentialService  :100  [32m                  [0;39m [null] CredentialService is freed
+2023-10-12 10:53:22.420 INFO  com.alibaba.nacos.client.naming                   :211  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-10-12 10:58:31.533 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:58:31.539 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-10-12 10:58:31.579 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:58:31.585 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 15300 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-12 10:58:31.586 INFO  top.lxyi.share.user.config.UserApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-12 10:58:32.219 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=bc9b2903-0434-31af-9376-8c69f0e5e18e
+2023-10-12 10:58:32.610 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-12 10:58:32.617 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:58:32.618 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-12 10:58:32.619 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-10-12 10:58:32.697 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-12 10:58:32.698 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1075 ms
+2023-10-12 10:58:33.070 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-12 10:58:34.222 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: Could not initialize Logback Nacos logging from classpath:nacos-logback.xml
+2023-10-12 10:58:34.223 INFO  com.alibaba.nacos.client.naming                   :62   [32m                  [0;39m initializer namespace from ans.namespace attribute : null
+2023-10-12 10:58:34.224 INFO  com.alibaba.nacos.client.naming                   :66   [32m                  [0;39m initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2023-10-12 10:58:34.224 INFO  com.alibaba.nacos.client.naming                   :73   [32m                  [0;39m initializer namespace from namespace attribute :null
+2023-10-12 10:58:34.242 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-10-12 10:58:34.243 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-10-12 10:58:34.244 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-10-12 10:58:34.249 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-10-12 10:58:34.249 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-10-12 10:58:34.251 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-10-12 10:58:34.259 INFO  com.alibaba.nacos.common.remote.client            :108  [32m                  [0;39m [RpcClientFactory] create a new rpc client of beb5fa29-31c0-4f12-9e45-5276e4bc6758
+2023-10-12 10:58:34.272 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-10-12 10:58:34.272 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-10-12 10:58:34.272 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-10-12 10:58:34.273 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Try to connect to server on start up, server: {serverIp = 'localhost', server main port = 8848}
+2023-10-12 10:58:34.300 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :182  [32m                  [0;39m grpc client connection server:localhost ip,serverPort:9848,grpcTslConfig:{"sslProvider":"OPENSSL","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2023-10-12 10:58:35.208 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Success to connect to server [localhost:8848] on start up, connectionId = 1697079515025_127.0.0.1_58923
+2023-10-12 10:58:35.208 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Notify connected event to listeners.
+2023-10-12 10:58:35.209 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-10-12 10:58:35.209 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-10-12 10:58:35.209 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1001/0x00000008013211b8
+2023-10-12 10:58:35.211 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:user-service, group:myGroup, clusters:DEFAULT 
+2023-10-12 10:58:35.232 INFO  com.alibaba.nacos.client.naming                   :184  [32m                  [0;39m init new ips(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:58:35.242 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(0) service: myGroup@@user-service@@DEFAULT -> []
+2023-10-12 10:58:35.245 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-12 10:58:35.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path ''
+2023-10-12 10:58:35.258 INFO  com.alibaba.nacos.client.naming                   :121  [32m                  [0;39m [REGISTER-SERVICE] dev registering service user-service with instance Instance{instanceId='null', ip='10.22.242.102', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.heart.beat.timeout=15000, preserved.register.source=SPRING_CLOUD, IPv6=null, myData=abc, preserved.heart.beat.interval=5000}}
+2023-10-12 10:58:35.266 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   [32m                  [0;39m nacos registry, myGroup user-service 10.22.242.102:8001 register finished
+2023-10-12 10:58:35.480 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 4.584 seconds (process running for 5.164)
+2023-10-12 10:58:35.484 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-12 10:58:35.484 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-12 10:58:35.791 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Receive server push request, request = NotifySubscriberRequest, requestId = 32
+2023-10-12 10:58:35.793 INFO  com.alibaba.nacos.client.naming                   :235  [32m                  [0;39m new ips(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-10-12 10:58:35.794 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(1) service: myGroup@@user-service@@DEFAULT -> [{"ip":"10.22.242.102","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"myGroup@@user-service","metadata":{"preserved.heart.beat.timeout":"15000","preserved.register.source":"SPRING_CLOUD","myData":"abc","preserved.heart.beat.interval":"5000"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-10-12 10:58:35.795 INFO  com.alibaba.nacos.common.remote.client            :63   [32m                  [0;39m [beb5fa29-31c0-4f12-9e45-5276e4bc6758] Ack server push request, request = NotifySubscriberRequest, requestId = 32
+2023-10-12 10:58:45.622 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 10:58:45.622 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-12 10:58:45.623 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-12 10:58:45.715 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697079525641opt  [0;39m -------开始-------
+2023-10-12 10:58:45.716 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697079525641opt  [0;39m 请求地址：http://10.22.242.102:8001/user/loginPOST
+2023-10-12 10:58:45.717 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697079525641opt  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-12 10:58:45.717 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697079525641opt  [0;39m 远程地址：10.22.242.102
+2023-10-12 10:58:45.791 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697079525641opt  [0;39m 请求参数：[{}]
+2023-10-12 10:58:45.875 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1697079525641opt  [0;39m HikariPool-1 - Starting...
+2023-10-12 10:58:46.253 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1697079525641opt  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19610f37
+2023-10-12 10:58:46.256 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1697079525641opt  [0;39m HikariPool-1 - Start completed.
+2023-10-12 10:58:46.265 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697079525641opt  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-12 10:58:46.292 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697079525641opt  [0;39m ==> Parameters: 13951905171(String)
+2023-10-12 10:58:46.322 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697079525641opt  [0;39m <==      Total: 1
+2023-10-12 10:58:46.378 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697079525641opt  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwNzk1MjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MjUyMzI2LCJpYXQiOjE2OTcwNzk1MjZ9._g64J2tbXlZgbkPU_3W74mP5ePsLd5xMWGU3nfYEnXI
+2023-10-12 10:58:46.388 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697079525641opt  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwNzk1MjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MjUyMzI2LCJpYXQiOjE2OTcwNzk1MjZ9._g64J2tbXlZgbkPU_3W74mP5ePsLd5xMWGU3nfYEnXI","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-12 10:58:46.389 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697079525641opt  [0;39m -------------结束耗时：675ms -----
+2023-10-12 10:58:57.252 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970795372508z6  [0;39m -------开始-------
+2023-10-12 10:58:57.252 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970795372508z6  [0;39m 请求地址：http://10.22.242.102:8001/user/2GET
+2023-10-12 10:58:57.252 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970795372508z6  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.getUserById
+2023-10-12 10:58:57.253 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970795372508z6  [0;39m 远程地址：10.22.242.102
+2023-10-12 10:58:57.253 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970795372508z6  [0;39m 请求参数：[2]
+2023-10-12 10:58:57.254 DEBUG top.lxyi.share.user.mapper.UserMapper.selectById  :135  [32m16970795372508z6  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE id=?
+2023-10-12 10:58:57.255 DEBUG top.lxyi.share.user.mapper.UserMapper.selectById  :135  [32m16970795372508z6  [0;39m ==> Parameters: 2(Long)
+2023-10-12 10:58:57.257 DEBUG top.lxyi.share.user.mapper.UserMapper.selectById  :135  [32m16970795372508z6  [0;39m <==      Total: 1
+2023-10-12 10:58:57.257 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970795372508z6  [0;39m 返回结果：{"data":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3exzjl.webp","bonus":350,"createTime":1695004731000,"id":2,"nickname":"InfinityX7","roles":"user","updateTime":1695011931000},"success":true}
+2023-10-12 10:58:57.258 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970795372508z6  [0;39m -------------结束耗时：6ms -----

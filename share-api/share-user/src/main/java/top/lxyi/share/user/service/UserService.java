@@ -25,6 +25,10 @@ public class UserService {
     public Long count(){
         return userMapper.selectCount(null);
     }
+
+    public User findById(Long userId){
+        return userMapper.selectById(userId);
+    }
     public UserLoginResp login(LoginDTO loginDTO){
         User userDB= userMapper.selectOne(new QueryWrapper<User>().lambda().eq(User::getPhone,loginDTO.getPhone()));
         if (userDB == null){
@@ -71,4 +75,5 @@ public class UserService {
 
 
     }
+
 }

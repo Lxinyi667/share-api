@@ -1,0 +1,440 @@
+2023-10-11 00:06:04.196 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:06:15.200 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:09:17.492 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:09:52.435 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:09:58.167 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:10:12.431 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:10:20.023 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:10:53.572 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/user-service/user/count
+2023-10-11 00:10:53.573 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM
+2023-10-11 00:10:53.573 INFO  top.lxyi.share.gateway.util.JwtUtil               :51   [32m                  [0;39m JWT token 校验结果：true
+2023-10-11 00:10:53.573 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :45   [32m                  [0;39m token有效，放行该请求
+2023-10-11 00:11:23.136 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:11:39.823 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/user-service/user/count
+2023-10-11 00:11:39.824 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM
+2023-10-11 00:11:39.825 INFO  top.lxyi.share.gateway.util.JwtUtil               :51   [32m                  [0;39m JWT token 校验结果：true
+2023-10-11 00:11:39.825 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :45   [32m                  [0;39m token有效，放行该请求
+2023-10-11 00:14:45.156 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:15:00.657 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:17:32.597 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-11 00:17:32.633 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 32568 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-11 00:17:32.634 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-11 00:17:32.681 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 00:17:32.681 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 00:17:33.242 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-11 00:17:33.982 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-11 00:17:33.983 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-11 00:17:33.984 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-11 00:17:34.164 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-11 00:17:34.653 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-11 00:17:35.122 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 3.088 seconds (process running for 3.681)
+2023-10-11 00:17:35.125 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-11 00:17:35.126 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-11 00:17:51.861 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:18:19.668 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 00:20:25.182 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 00:20:32.258 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:10:59.779 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:10:59.759 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:11:01.929 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:11:01.928 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:11:20.535 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:11:20.535 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:02.466 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-11 09:12:02.503 INFO  top.lxyi.share.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.6 with PID 27188 (E:\2242-wei\share-api\share-gateway\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-11 09:12:02.504 INFO  top.lxyi.share.gateway.config.GatewayApplication  :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-11 09:12:02.565 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-11 09:12:02.566 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-11 09:12:03.349 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=fa872296-b9ef-33d7-a1aa-2eb38f143bc4
+2023-10-11 09:12:04.474 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-10-11 09:12:04.474 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-11 09:12:04.474 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-11 09:12:04.474 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-11 09:12:04.474 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-11 09:12:04.475 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-11 09:12:04.475 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-11 09:12:04.475 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-11 09:12:04.475 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-11 09:12:04.475 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-11 09:12:04.476 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-11 09:12:04.476 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-11 09:12:04.476 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-11 09:12:04.476 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-11 09:12:04.652 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-10-11 09:12:05.253 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2023-10-11 09:12:05.887 INFO  top.lxyi.share.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 4.299 seconds (process running for 6.823)
+2023-10-11 09:12:05.891 INFO  top.lxyi.share.gateway.config.GatewayApplication  :16   [32m                  [0;39m 网关启动成功！！
+2023-10-11 09:12:05.892 INFO  top.lxyi.share.gateway.config.GatewayApplication  :17   [32m                  [0;39m 网关地址：http://127.0.0.1:8000
+2023-10-11 09:12:07.653 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:12:07.653 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:09.608 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:09.609 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:12:11.646 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:12:11.646 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:14.289 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:14.289 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:12:17.166 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:17.175 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:12:33.516 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:12:33.518 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:13:19.291 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:13:19.291 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:13:30.986 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:13:30.990 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:13:48.897 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:13:48.898 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:13:53.070 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:13:53.070 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:15:42.107 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:15:42.109 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:15:44.878 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:15:44.881 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:16:29.731 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:16:29.734 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:17:16.405 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:17:16.405 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:17:18.554 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:17:18.555 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:17:19.412 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:18:22.357 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:18:22.365 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:18:23.220 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:18:23.220 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:18:24.694 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:18:24.697 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:19:03.380 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:19:03.380 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:19:03.407 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [3f30d295-44]  500 Server Error for HTTP GET "/content-service/share/list?pageNo=1&pageSize=8"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/content-service/share/list?pageNo=1&pageSize=8" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 09:19:03.407 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [b336c52a-43]  500 Server Error for HTTP GET "/content-service/share/notice"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/content-service/share/notice" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 09:19:09.318 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:19:09.318 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:20:05.062 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:20:05.067 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [e96b553e-47]  500 Server Error for HTTP GET "/content-service/share/notice"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/content-service/share/notice" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 09:20:05.071 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:20:05.075 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [134340d6-48]  500 Server Error for HTTP GET "/content-service/share/list?pageNo=1&pageSize=8"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/content-service/share/list?pageNo=1&pageSize=8" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 09:20:07.135 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:20:07.138 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:20:09.335 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:20:09.336 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:20:23.246 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:20:23.246 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:20:23.467 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:20:23.467 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:25:51.419 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:25:54.303 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:25:54.303 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:26:27.945 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:26:27.948 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:26:28.468 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:26:28.473 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:26:30.337 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:26:30.339 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:26:56.411 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:26:57.584 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:26:57.584 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:27:19.073 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:27:19.086 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:27:20.678 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:27:20.680 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:27:58.447 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:27:58.447 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:28:31.221 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:28:31.223 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:28:36.111 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:28:37.152 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:28:37.154 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:29:33.883 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:29:33.886 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:30:12.883 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:30:12.889 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:30:15.735 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:30:15.736 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:30:15.838 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:30:15.843 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:30:19.229 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:30:26.640 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:30:26.640 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:31:55.928 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:35:50.662 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:35:50.662 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:36:07.696 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:36:07.700 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:36:14.945 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:36:14.948 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:37:24.048 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:37:24.056 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:37:27.306 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:37:28.662 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:37:28.666 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:37:58.499 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:37:58.597 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:38:02.373 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:38:02.373 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:38:12.238 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:38:12.238 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:38:28.090 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:38:28.100 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:38:56.436 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 09:38:59.332 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:38:59.333 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:39:03.123 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:41:23.243 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:41:23.254 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 09:41:23.732 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 09:41:23.733 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:45:13.733 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:45:13.733 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 11:54:55.837 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 11:54:55.837 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:55:05.206 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:55:23.174 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 11:55:23.174 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:55:24.221 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 11:59:30.825 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 11:59:30.825 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:04.420 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:04.420 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:04:09.727 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:16.233 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 12:04:18.257 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:04:18.257 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:34.901 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:45.278 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:45.278 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:04:46.163 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:04:49.629 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:04:49.629 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:05:43.216 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:05:43.216 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:06:21.033 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:06:21.033 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:06:27.845 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:06:27.845 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:06:35.444 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:06:35.445 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:06:39.863 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:06:39.863 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:08:02.883 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:08:02.883 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:09:18.279 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:09:18.281 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:09:20.829 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:09:20.829 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:11:11.505 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:11:11.505 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:11:29.708 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:11:29.709 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:11:31.393 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:11:31.394 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:12:17.357 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:12:17.358 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:12:18.827 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:12:18.828 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:13:38.882 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:13:38.882 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:13:39.458 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:13:39.458 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:13:51.611 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:13:51.611 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:18:18.603 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:18:18.603 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:18:43.029 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:18:43.029 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:18:47.768 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:18:47.770 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:18:58.273 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:18:58.274 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:19:46.839 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:19:46.839 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:20:22.780 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:20:22.780 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:20:29.840 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:20:29.841 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:22:55.223 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:22:55.223 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:22:55.226 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:22:55.227 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:23:05.471 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:23:05.472 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:23:19.690 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:23:19.690 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:23:19.692 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:23:19.694 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:24:18.460 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:24:18.460 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:25:14.805 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:25:14.805 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:25:34.801 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:26:01.285 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:26:01.286 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:32:56.253 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:32:56.254 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:33:09.022 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:33:09.023 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:34:48.644 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:38:51.646 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:38:51.646 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:38:54.751 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:38:54.751 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:39:34.217 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:39:34.229 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:39:37.495 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:39:37.495 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 12:44:00.430 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 12:44:00.431 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:06:47.356 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:06:47.356 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:09:26.885 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:09:26.886 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:09:30.065 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:09:30.066 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:09:31.615 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:09:31.615 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:11:02.527 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:11:02.527 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:11:06.004 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:15:57.893 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:17:06.561 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:17:49.845 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:32:39.633 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:33:07.896 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:33:19.853 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:33:54.569 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:33:58.784 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:33:58.798 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:34:01.354 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:34:05.236 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:34:05.236 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:34:06.584 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:35:08.362 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:35:08.362 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:35:09.169 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:35:46.042 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/hello
+2023-10-11 13:35:48.690 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/user-service/user/count
+2023-10-11 13:35:48.694 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDIzNTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MTU5LCJpYXQiOjE2OTcwMDIzNTl9.DrdvjTu_dCHf2Y6iGIL4nWIn76Y8WivIEWXHZ1AaSlg
+2023-10-11 13:35:49.591 INFO  top.lxyi.share.gateway.util.JwtUtil               :51   [32m                  [0;39m JWT token 校验结果：true
+2023-10-11 13:35:49.592 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :45   [32m                  [0;39m token有效，放行该请求
+2023-10-11 13:35:51.804 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:35:55.395 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/register
+2023-10-11 13:36:02.730 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:36:20.866 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:36:28.865 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:39:52.878 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:39:52.879 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:41:20.174 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:41:57.527 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:42:50.851 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:43:07.140 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:43:15.710 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/hello
+2023-10-11 13:43:18.440 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :32   [32m                  [0;39m 需要登录验证：/user-service/user/count
+2023-10-11 13:43:18.441 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :36   [32m                  [0;39m 会员登录验证开始，token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI5ODcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1Nzg3LCJpYXQiOjE2OTcwMDI5ODd9.jr5fhkavSDaPvkT4DTX_OLnO8Ja4TIPvNMnBIBzQLPA
+2023-10-11 13:43:18.442 INFO  top.lxyi.share.gateway.util.JwtUtil               :51   [32m                  [0;39m JWT token 校验结果：true
+2023-10-11 13:43:18.443 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :45   [32m                  [0;39m token有效，放行该请求
+2023-10-11 13:43:24.181 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/register
+2023-10-11 13:43:27.329 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:43:32.526 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/user-service/user/login
+2023-10-11 13:44:56.579 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:44:56.581 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:45:24.533 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:45:26.954 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 13:45:26.956 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 13:45:28.047 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 15:31:13.380 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 15:31:13.380 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 15:31:13.937 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 15:31:13.937 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 15:36:43.094 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 15:36:43.096 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list
+2023-10-11 15:49:57.283 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/notice
+2023-10-11 15:49:57.289 INFO  top.lxyi.share.gateway.config.LoginUserFilter     :29   [32m                  [0;39m 不需要登录验证：/content-service/share/list

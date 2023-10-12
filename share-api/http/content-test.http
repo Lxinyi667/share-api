@@ -5,3 +5,8 @@ Accept: application/json
 GET http://localhost:8000/content-service/share/list?pageNo=1&pageSize=2
 Accept: application/json
 token:{{token}}
+
+###
+GET http://localhost:8000/content-service/share/1
+Accept: application/json
+token:{{token}}

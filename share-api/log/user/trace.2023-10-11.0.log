@@ -1,0 +1,528 @@
+2023-10-11 00:06:04.203 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696953964202xdv  [0;39m -------开始-------
+2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696953964202xdv  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696953964202xdv  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696953964202xdv  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:06:04.215 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696953964202xdv  [0;39m 请求参数：[{}]
+2023-10-11 00:06:04.217 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:06:04.218 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:06:04.220 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696953964202xdv  [0;39m <==      Total: 1
+2023-10-11 00:06:04.220 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696953964202xdv  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTM5NjQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDUzOTY0LCJpYXQiOjE2OTY5NTM5NjR9.bds5Z_y_J25CvKgBhjgXmF97iYqKkCJWiKCzx3iPVBU
+2023-10-11 00:06:04.221 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696953964202xdv  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTM5NjQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDUzOTY0LCJpYXQiOjE2OTY5NTM5NjR9.bds5Z_y_J25CvKgBhjgXmF97iYqKkCJWiKCzx3iPVBU","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:06:04.221 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696953964202xdv  [0;39m -------------结束耗时：18ms -----
+2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954192439kqz  [0;39m -------开始-------
+2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954192439kqz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954192439kqz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:09:52.439 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954192439kqz  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:09:52.441 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954192439kqz  [0;39m 请求参数：[{}]
+2023-10-11 00:09:52.442 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:09:52.443 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:09:52.444 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954192439kqz  [0;39m <==      Total: 1
+2023-10-11 00:09:52.445 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954192439kqz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQxOTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MTkyLCJpYXQiOjE2OTY5NTQxOTJ9.Zgg2BSlVxI4TOJ9B5ilWyzuw9dD2sdOSZFnF9xsATCY
+2023-10-11 00:09:52.446 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954192439kqz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQxOTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MTkyLCJpYXQiOjE2OTY5NTQxOTJ9.Zgg2BSlVxI4TOJ9B5ilWyzuw9dD2sdOSZFnF9xsATCY","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:09:52.446 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954192439kqz  [0;39m -------------结束耗时：7ms -----
+2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954212433j8g  [0;39m -------开始-------
+2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954212433j8g  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954212433j8g  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954212433j8g  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:10:12.434 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954212433j8g  [0;39m 请求参数：[{}]
+2023-10-11 00:10:12.436 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:10:12.436 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:10:12.437 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954212433j8g  [0;39m <==      Total: 1
+2023-10-11 00:10:12.437 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954212433j8g  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM
+2023-10-11 00:10:12.439 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954212433j8g  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQyMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0MjEyLCJpYXQiOjE2OTY5NTQyMTJ9.eQPMO5IxyCe1P4EIsCDfT4U7jf4AsrqSg3y3mF1pqKM","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:10:12.439 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954212433j8g  [0;39m -------------结束耗时：5ms -----
+2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954253575yk6  [0;39m -------开始-------
+2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954253575yk6  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954253575yk6  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954253575yk6  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:10:53.576 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954253575yk6  [0;39m 请求参数：[]
+2023-10-11 00:10:53.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
+2023-10-11 00:10:53.577 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m ==> Parameters: 
+2023-10-11 00:10:53.577 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954253575yk6  [0;39m <==      Total: 1
+2023-10-11 00:10:53.577 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954253575yk6  [0;39m 返回结果：{"data":2,"success":true}
+2023-10-11 00:10:53.579 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954253575yk6  [0;39m -------------结束耗时：4ms -----
+2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954299828w9l  [0;39m -------开始-------
+2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954299828w9l  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954299828w9l  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-11 00:11:39.828 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954299828w9l  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:11:39.829 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954299828w9l  [0;39m 请求参数：[]
+2023-10-11 00:11:39.829 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
+2023-10-11 00:11:39.830 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m ==> Parameters: 
+2023-10-11 00:11:39.831 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1696954299828w9l  [0;39m <==      Total: 1
+2023-10-11 00:11:39.831 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954299828w9l  [0;39m 返回结果：{"data":2,"success":true}
+2023-10-11 00:11:39.831 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954299828w9l  [0;39m -------------结束耗时：3ms -----
+2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16969544851600r8  [0;39m -------开始-------
+2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16969544851600r8  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16969544851600r8  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16969544851600r8  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:14:45.161 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16969544851600r8  [0;39m 请求参数：[{}]
+2023-10-11 00:14:45.163 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:14:45.163 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:14:45.165 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969544851600r8  [0;39m <==      Total: 1
+2023-10-11 00:14:45.165 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16969544851600r8  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ0ODUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0NDg1LCJpYXQiOjE2OTY5NTQ0ODV9.G3GZnkbNPpiTDCW7kLAHx8T3MSMCPYuBNnAXtRYLuhQ
+2023-10-11 00:14:45.166 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16969544851600r8  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ0ODUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MDU0NDg1LCJpYXQiOjE2OTY5NTQ0ODV9.G3GZnkbNPpiTDCW7kLAHx8T3MSMCPYuBNnAXtRYLuhQ","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:14:45.166 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16969544851600r8  [0;39m -------------结束耗时：5ms -----
+2023-10-11 00:17:35.937 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-11 00:17:35.941 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-11 00:17:38.342 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-11 00:17:38.370 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 28160 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-11 00:17:38.371 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-11 00:17:39.373 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-11 00:17:39.379 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-11 00:17:39.381 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-11 00:17:39.381 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-11 00:17:39.456 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-11 00:17:39.456 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1051 ms
+2023-10-11 00:17:39.770 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-11 00:17:40.163 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-11 00:17:40.178 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-11 00:17:40.185 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.193 seconds (process running for 2.763)
+2023-10-11 00:17:40.187 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-11 00:17:40.188 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-11 00:17:52.008 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 00:17:52.009 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-11 00:17:52.010 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-11 00:17:52.118 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954672022ptp  [0;39m -------开始-------
+2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954672022ptp  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954672022ptp  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:17:52.119 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954672022ptp  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:17:52.171 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954672022ptp  [0;39m 请求参数：[{}]
+2023-10-11 00:17:52.243 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1696954672022ptp  [0;39m HikariPool-1 - Starting...
+2023-10-11 00:17:52.540 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1696954672022ptp  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e6cd134
+2023-10-11 00:17:52.541 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1696954672022ptp  [0;39m HikariPool-1 - Start completed.
+2023-10-11 00:17:52.548 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:17:52.570 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:17:52.589 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954672022ptp  [0;39m <==      Total: 1
+2023-10-11 00:17:52.650 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954672022ptp  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ2NzIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NDcyLCJpYXQiOjE2OTY5NTQ2NzJ9.QGLhJNOfBzv2AY-24o5ouYWikBl6y3wxLmLOtcOWfuQ
+2023-10-11 00:17:52.659 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954672022ptp  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ2NzIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NDcyLCJpYXQiOjE2OTY5NTQ2NzJ9.QGLhJNOfBzv2AY-24o5ouYWikBl6y3wxLmLOtcOWfuQ","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:17:52.659 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954672022ptp  [0;39m -------------结束耗时：541ms -----
+2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696954825187yh5  [0;39m -------开始-------
+2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696954825187yh5  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696954825187yh5  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 00:20:25.188 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696954825187yh5  [0;39m 远程地址：127.0.0.1
+2023-10-11 00:20:25.189 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696954825187yh5  [0;39m 请求参数：[{}]
+2023-10-11 00:20:25.191 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 00:20:25.191 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 00:20:25.193 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696954825187yh5  [0;39m <==      Total: 1
+2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696954825187yh5  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ4MjUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NjI1LCJpYXQiOjE2OTY5NTQ4MjV9.RLJl8ki9DF2I3ZIYH4EfxMamqhd01qFquMcE1nVh_wM
+2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696954825187yh5  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5NTQ4MjUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTI3NjI1LCJpYXQiOjE2OTY5NTQ4MjV9.RLJl8ki9DF2I3ZIYH4EfxMamqhd01qFquMcE1nVh_wM","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 00:20:25.194 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696954825187yh5  [0;39m -------------结束耗时：6ms -----
+2023-10-11 04:29:50.320 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h1m56s623ms531µs900ns).
+2023-10-11 07:07:42.917 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h37m54s941ms327µs300ns).
+2023-10-11 08:52:18.343 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m5s323ms754µs100ns).
+2023-10-11 09:11:38.109 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-11 09:11:38.121 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-10-11 09:12:05.084 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-11 09:12:05.117 INFO  top.lxyi.share.user.config.UserApplication        :51   [32m                  [0;39m Starting UserApplication using Java 17.0.6 with PID 36376 (E:\2242-wei\share-api\share-user\target\classes started by 17161 in E:\2242-wei\share-api)
+2023-10-11 09:12:05.118 INFO  top.lxyi.share.user.config.UserApplication        :637  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-11 09:12:06.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-11 09:12:06.357 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-11 09:12:06.359 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-10-11 09:12:06.359 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-11 09:12:06.465 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-11 09:12:06.466 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1302 ms
+2023-10-11 09:12:06.886 INFO  top.lxyi.share.common.aspect.LogAspect            :30   [32m                  [0;39m logAspect
+2023-10-11 09:12:07.607 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-11 09:12:07.632 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/user-service'
+2023-10-11 09:12:07.644 INFO  top.lxyi.share.user.config.UserApplication        :57   [32m                  [0;39m Started UserApplication in 2.998 seconds (process running for 3.572)
+2023-10-11 09:12:07.647 INFO  top.lxyi.share.user.config.UserApplication        :18   [32m                  [0;39m 启动成功！！
+2023-10-11 09:12:07.648 INFO  top.lxyi.share.user.config.UserApplication        :19   [32m                  [0;39m 测试地址：http://127.0.0.1:8001null/hello
+2023-10-11 09:25:51.561 INFO  o.a.c.c.C.[Tomcat].[localhost].[/user-service]    :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-11 09:25:51.562 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-11 09:25:51.563 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2023-10-11 09:25:51.706 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987551583t2p  [0;39m -------开始-------
+2023-10-11 09:25:51.706 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987551583t2p  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:25:51.707 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987551583t2p  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:25:51.707 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987551583t2p  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:25:51.774 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987551583t2p  [0;39m 请求参数：[{}]
+2023-10-11 09:25:51.852 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1696987551583t2p  [0;39m HikariPool-1 - Starting...
+2023-10-11 09:25:52.237 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1696987551583t2p  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@125c9ab4
+2023-10-11 09:25:52.240 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1696987551583t2p  [0;39m HikariPool-1 - Start completed.
+2023-10-11 09:25:52.248 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:25:52.278 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:25:52.318 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987551583t2p  [0;39m <==      Total: 1
+2023-10-11 09:25:52.410 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987551583t2p  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc1NTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwMzUyLCJpYXQiOjE2OTY5ODc1NTJ9.zzKCiCXaXEh5BjmT7zOgQrwEDT7op03d9Bqv7C6E8Rw
+2023-10-11 09:25:52.421 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987551583t2p  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc1NTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwMzUyLCJpYXQiOjE2OTY5ODc1NTJ9.zzKCiCXaXEh5BjmT7zOgQrwEDT7op03d9Bqv7C6E8Rw","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:25:52.421 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987551583t2p  [0;39m -------------结束耗时：716ms -----
+2023-10-11 09:26:56.419 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987616417akv  [0;39m -------开始-------
+2023-10-11 09:26:56.420 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987616417akv  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:26:56.421 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987616417akv  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:26:56.422 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987616417akv  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:26:56.422 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987616417akv  [0;39m 请求参数：[{}]
+2023-10-11 09:26:56.425 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:26:56.428 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:26:56.432 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987616417akv  [0;39m <==      Total: 1
+2023-10-11 09:26:56.434 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987616417akv  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc2MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNDE2LCJpYXQiOjE2OTY5ODc2MTZ9.EcL0dKnoqi60SQ9FSgZxB0W2RJk6jjnx5ed3sK1Z0Ok
+2023-10-11 09:26:56.435 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987616417akv  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc2MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNDE2LCJpYXQiOjE2OTY5ODc2MTZ9.EcL0dKnoqi60SQ9FSgZxB0W2RJk6jjnx5ed3sK1Z0Ok","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:26:56.435 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987616417akv  [0;39m -------------结束耗时：16ms -----
+2023-10-11 09:28:36.117 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987716116yn2  [0;39m -------开始-------
+2023-10-11 09:28:36.117 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987716116yn2  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987716116yn2  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987716116yn2  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:28:36.118 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987716116yn2  [0;39m 请求参数：[{}]
+2023-10-11 09:28:36.120 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:28:36.121 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:28:36.123 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987716116yn2  [0;39m <==      Total: 1
+2023-10-11 09:28:36.125 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987716116yn2  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc3MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNTE2LCJpYXQiOjE2OTY5ODc3MTZ9.tk33if8IS-ev3WB5o_gupqnrAJrq5Us3oZSiUN4U4_o
+2023-10-11 09:28:36.126 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987716116yn2  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc3MTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNTE2LCJpYXQiOjE2OTY5ODc3MTZ9.tk33if8IS-ev3WB5o_gupqnrAJrq5Us3oZSiUN4U4_o","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:28:36.126 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987716116yn2  [0;39m -------------结束耗时：9ms -----
+2023-10-11 09:30:19.234 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987819233l02  [0;39m -------开始-------
+2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987819233l02  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987819233l02  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987819233l02  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:30:19.235 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987819233l02  [0;39m 请求参数：[{}]
+2023-10-11 09:30:19.237 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:30:19.238 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:30:19.241 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987819233l02  [0;39m <==      Total: 1
+2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987819233l02  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc4MTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNjE5LCJpYXQiOjE2OTY5ODc4MTl9.x4s1zozE_MCjVa0YDBe5wcgAFoXdjMd2WCKez6MkThA
+2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987819233l02  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc4MTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNjE5LCJpYXQiOjE2OTY5ODc4MTl9.x4s1zozE_MCjVa0YDBe5wcgAFoXdjMd2WCKez6MkThA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:30:19.242 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987819233l02  [0;39m -------------结束耗时：8ms -----
+2023-10-11 09:31:55.935 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696987915933m8p  [0;39m -------开始-------
+2023-10-11 09:31:55.935 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696987915933m8p  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:31:55.936 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696987915933m8p  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:31:55.936 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696987915933m8p  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:31:55.937 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696987915933m8p  [0;39m 请求参数：[{}]
+2023-10-11 09:31:55.939 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:31:55.940 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:31:55.942 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696987915933m8p  [0;39m <==      Total: 1
+2023-10-11 09:31:55.943 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696987915933m8p  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc5MTUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNzE1LCJpYXQiOjE2OTY5ODc5MTV9.kylyXBzSd2tIUtz5v20ARGVF1VEHAyQeSFTJoojqdWo
+2023-10-11 09:31:55.944 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696987915933m8p  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODc5MTUsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYwNzE1LCJpYXQiOjE2OTY5ODc5MTV9.kylyXBzSd2tIUtz5v20ARGVF1VEHAyQeSFTJoojqdWo","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:31:55.944 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696987915933m8p  [0;39m -------------结束耗时：10ms -----
+2023-10-11 09:37:27.311 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696988247310x0c  [0;39m -------开始-------
+2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696988247310x0c  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696988247310x0c  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696988247310x0c  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:37:27.313 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696988247310x0c  [0;39m 请求参数：[{}]
+2023-10-11 09:37:27.317 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:37:27.318 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:37:27.320 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696988247310x0c  [0;39m <==      Total: 1
+2023-10-11 09:37:27.321 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696988247310x0c  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgyNDcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMDQ3LCJpYXQiOjE2OTY5ODgyNDd9.DMmhmmlHeS1IZS0xwUkIRcdqG9BRK4xrRMGBLg8TaxA
+2023-10-11 09:37:27.321 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696988247310x0c  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgyNDcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMDQ3LCJpYXQiOjE2OTY5ODgyNDd9.DMmhmmlHeS1IZS0xwUkIRcdqG9BRK4xrRMGBLg8TaxA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:37:27.322 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696988247310x0c  [0;39m -------------结束耗时：11ms -----
+2023-10-11 09:38:56.458 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16969883364563lh  [0;39m -------开始-------
+2023-10-11 09:38:56.459 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16969883364563lh  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16969883364563lh  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16969883364563lh  [0;39m 远程地址：127.0.0.1
+2023-10-11 09:38:56.460 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16969883364563lh  [0;39m 请求参数：[{}]
+2023-10-11 09:38:56.463 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 09:38:56.463 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 09:38:56.466 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16969883364563lh  [0;39m <==      Total: 1
+2023-10-11 09:38:56.467 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16969883364563lh  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgzMzYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMTM2LCJpYXQiOjE2OTY5ODgzMzZ9.0oJP1ZmcCJABS0JJtcgWOvc6-Ws9MlsBA2x6Tq9S8R0
+2023-10-11 09:38:56.468 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16969883364563lh  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5ODgzMzYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTYxMTM2LCJpYXQiOjE2OTY5ODgzMzZ9.0oJP1ZmcCJABS0JJtcgWOvc6-Ws9MlsBA2x6Tq9S8R0","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 09:38:56.468 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16969883364563lh  [0;39m -------------结束耗时：10ms -----
+2023-10-11 11:45:16.939 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h2m24s421ms650µs800ns).
+2023-10-11 12:04:16.269 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1696997056258f7c  [0;39m -------开始-------
+2023-10-11 12:04:16.272 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1696997056258f7c  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 12:04:16.272 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1696997056258f7c  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 12:04:16.273 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1696997056258f7c  [0;39m 远程地址：127.0.0.1
+2023-10-11 12:04:16.274 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1696997056258f7c  [0;39m 请求参数：[{}]
+2023-10-11 12:04:16.287 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 12:04:16.291 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 12:04:16.298 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1696997056258f7c  [0;39m <==      Total: 1
+2023-10-11 12:04:16.303 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1696997056258f7c  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5OTcwNTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTY5ODU2LCJpYXQiOjE2OTY5OTcwNTZ9.yeM0e39hwQ4uQzu8bcjtH5rKcINrGSYc14kVYqjki1w
+2023-10-11 12:04:16.303 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1696997056258f7c  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTY5OTcwNTYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTY5ODU2LCJpYXQiOjE2OTY5OTcwNTZ9.yeM0e39hwQ4uQzu8bcjtH5rKcINrGSYc14kVYqjki1w","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 12:04:16.304 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1696997056258f7c  [0;39m -------------结束耗时：35ms -----
+2023-10-11 13:11:06.043 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697001066032wjo  [0;39m -------开始-------
+2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697001066032wjo  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697001066032wjo  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:11:06.048 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697001066032wjo  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:11:06.050 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697001066032wjo  [0;39m 请求参数：[{}]
+2023-10-11 13:11:06.060 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:11:06.062 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:11:06.068 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001066032wjo  [0;39m <==      Total: 1
+2023-10-11 13:11:06.070 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697001066032wjo  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEwNjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTczODY2LCJpYXQiOjE2OTcwMDEwNjZ9.MBu-OgvIFUEpemzlq5zr2f1KetosJeAqFjci5EBAhEY
+2023-10-11 13:11:06.071 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697001066032wjo  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEwNjYsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTczODY2LCJpYXQiOjE2OTcwMDEwNjZ9.MBu-OgvIFUEpemzlq5zr2f1KetosJeAqFjci5EBAhEY","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:11:06.071 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697001066032wjo  [0;39m -------------结束耗时：28ms -----
+2023-10-11 13:15:57.899 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697001357897kbe  [0;39m -------开始-------
+2023-10-11 13:15:57.899 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697001357897kbe  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697001357897kbe  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697001357897kbe  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:15:57.900 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697001357897kbe  [0;39m 请求参数：[{}]
+2023-10-11 13:15:57.901 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:15:57.902 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:15:57.903 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697001357897kbe  [0;39m <==      Total: 1
+2023-10-11 13:15:57.904 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697001357897kbe  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEzNTcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc0MTU3LCJpYXQiOjE2OTcwMDEzNTd9.EsEAcQBRHGPfN6CWCW5boN6epDQLaM12N62LhnOlr48
+2023-10-11 13:15:57.904 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697001357897kbe  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDEzNTcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc0MTU3LCJpYXQiOjE2OTcwMDEzNTd9.EsEAcQBRHGPfN6CWCW5boN6epDQLaM12N62LhnOlr48","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:15:57.905 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697001357897kbe  [0;39m -------------结束耗时：6ms -----
+2023-10-11 13:32:39.639 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970023596388q4  [0;39m -------开始-------
+2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970023596388q4  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970023596388q4  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970023596388q4  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:32:39.640 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970023596388q4  [0;39m 请求参数：[{}]
+2023-10-11 13:32:39.642 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:32:39.643 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:32:39.644 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970023596388q4  [0;39m <==      Total: 1
+2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16970023596388q4  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDIzNTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MTU5LCJpYXQiOjE2OTcwMDIzNTl9.DrdvjTu_dCHf2Y6iGIL4nWIn76Y8WivIEWXHZ1AaSlg
+2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970023596388q4  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDIzNTksInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MTU5LCJpYXQiOjE2OTcwMDIzNTl9.DrdvjTu_dCHf2Y6iGIL4nWIn76Y8WivIEWXHZ1AaSlg","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:32:39.645 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970023596388q4  [0;39m -------------结束耗时：6ms -----
+2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970024345736dz  [0;39m -------开始-------
+2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970024345736dz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:33:54.574 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970024345736dz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:33:54.575 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970024345736dz  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:33:54.575 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970024345736dz  [0;39m 请求参数：[{}]
+2023-10-11 13:33:54.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:33:54.576 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:33:54.578 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970024345736dz  [0;39m <==      Total: 1
+2023-10-11 13:33:54.579 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16970024345736dz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI0MzQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MjM0LCJpYXQiOjE2OTcwMDI0MzR9.Rl2599rgenJhi2SXn99N_L6E4POLki84qIkhSdOYnPA
+2023-10-11 13:33:54.579 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970024345736dz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI0MzQsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MjM0LCJpYXQiOjE2OTcwMDI0MzR9.Rl2599rgenJhi2SXn99N_L6E4POLki84qIkhSdOYnPA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:33:54.580 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970024345736dz  [0;39m -------------结束耗时：6ms -----
+2023-10-11 13:35:43.105 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002543096dkr  [0;39m -------开始-------
+2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002543096dkr  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
+2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002543096dkr  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002543096dkr  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:35:43.106 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002543096dkr  [0;39m 请求参数：[]
+2023-10-11 13:35:43.108 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002543096dkr  [0;39m 返回结果："Hello Wrold!"
+2023-10-11 13:35:43.108 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002543096dkr  [0;39m -------------结束耗时：3ms -----
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002546045ky4  [0;39m -------开始-------
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002546045ky4  [0;39m 请求地址：http://127.0.0.1:8001/user-service/helloGET
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002546045ky4  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002546045ky4  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002546045ky4  [0;39m 请求参数：[]
+2023-10-11 13:35:46.045 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002546045ky4  [0;39m 返回结果："Hello Wrold!"
+2023-10-11 13:35:46.046 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002546045ky4  [0;39m -------------结束耗时：1ms -----
+2023-10-11 13:35:49.595 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970025495950vc  [0;39m -------开始-------
+2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970025495950vc  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970025495950vc  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970025495950vc  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:35:49.596 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970025495950vc  [0;39m 请求参数：[]
+2023-10-11 13:35:49.601 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
+2023-10-11 13:35:49.601 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m ==> Parameters: 
+2023-10-11 13:35:49.644 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m16970025495950vc  [0;39m <==      Total: 1
+2023-10-11 13:35:49.645 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970025495950vc  [0;39m 返回结果：{"data":2,"success":true}
+2023-10-11 13:35:49.646 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970025495950vc  [0;39m -------------结束耗时：51ms -----
+2023-10-11 13:35:51.808 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002551806iiz  [0;39m -------开始-------
+2023-10-11 13:35:51.808 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002551806iiz  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002551806iiz  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002551806iiz  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:35:51.809 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002551806iiz  [0;39m 请求参数：[{}]
+2023-10-11 13:35:51.810 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:35:51.811 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:35:51.812 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002551806iiz  [0;39m <==      Total: 1
+2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697002551806iiz  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI1NTEsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MzUxLCJpYXQiOjE2OTcwMDI1NTF9.5tZh3W3VkkU6zwqKjryyq64raUn2Guj8btmE1B_y37A
+2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002551806iiz  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI1NTEsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1MzUxLCJpYXQiOjE2OTcwMDI1NTF9.5tZh3W3VkkU6zwqKjryyq64raUn2Guj8btmE1B_y37A","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:35:51.813 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002551806iiz  [0;39m -------------结束耗时：5ms -----
+2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002555399gx6  [0;39m -------开始-------
+2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002555399gx6  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/registerPOST
+2023-10-11 13:35:55.402 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002555399gx6  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.register
+2023-10-11 13:35:55.403 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002555399gx6  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:35:55.403 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002555399gx6  [0;39m 请求参数：[{}]
+2023-10-11 13:35:55.406 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:35:55.407 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m ==> Parameters: 13951905172(String)
+2023-10-11 13:35:55.408 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697002555399gx6  [0;39m <==      Total: 1
+2023-10-11 13:35:55.421 ERROR t.l.s.common.handler.ControllerExceptionHandler   :29   [32m1697002555399gx6  [0;39m 业务异常：
+top.lxyi.share.common.exception.BusinessException: null
+	at top.lxyi.share.user.service.UserService.register(UserService.java:55)
+	at top.lxyi.share.user.controller.UserController.register(UserController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at top.lxyi.share.common.aspect.LogAspect.doAround(LogAspect.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at top.lxyi.share.user.controller.UserController$$SpringCGLIB$$0.register(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 13:43:07.144 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m16970029871437su  [0;39m -------开始-------
+2023-10-11 13:43:07.144 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m16970029871437su  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:43:07.144 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m16970029871437su  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:43:07.144 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m16970029871437su  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:07.145 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m16970029871437su  [0;39m 请求参数：[{}]
+2023-10-11 13:43:07.155 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970029871437su  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:43:07.156 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970029871437su  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:43:07.159 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m16970029871437su  [0;39m <==      Total: 1
+2023-10-11 13:43:07.160 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m16970029871437su  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI5ODcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1Nzg3LCJpYXQiOjE2OTcwMDI5ODd9.jr5fhkavSDaPvkT4DTX_OLnO8Ja4TIPvNMnBIBzQLPA
+2023-10-11 13:43:07.161 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m16970029871437su  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDI5ODcsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1Nzg3LCJpYXQiOjE2OTcwMDI5ODd9.jr5fhkavSDaPvkT4DTX_OLnO8Ja4TIPvNMnBIBzQLPA","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:43:07.161 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m16970029871437su  [0;39m -------------结束耗时：17ms -----
+2023-10-11 13:43:12.484 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002992484qd4  [0;39m -------开始-------
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002992484qd4  [0;39m 请求地址：http://localhost:8001/user-service/helloGET
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002992484qd4  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002992484qd4  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002992484qd4  [0;39m 请求参数：[]
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002992484qd4  [0;39m 返回结果："Hello Wrold!"
+2023-10-11 13:43:12.485 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002992484qd4  [0;39m -------------结束耗时：1ms -----
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002995712mh7  [0;39m -------开始-------
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002995712mh7  [0;39m 请求地址：http://127.0.0.1:8001/user-service/helloGET
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002995712mh7  [0;39m 类名方法：top.lxyi.share.user.controller.TestController.hello
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002995712mh7  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002995712mh7  [0;39m 请求参数：[]
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002995712mh7  [0;39m 返回结果："Hello Wrold!"
+2023-10-11 13:43:15.713 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002995712mh7  [0;39m -------------结束耗时：0ms -----
+2023-10-11 13:43:18.445 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697002998445mx7  [0;39m -------开始-------
+2023-10-11 13:43:18.446 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697002998445mx7  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/countGET
+2023-10-11 13:43:18.446 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697002998445mx7  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.count
+2023-10-11 13:43:18.446 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697002998445mx7  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:18.446 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697002998445mx7  [0;39m 请求参数：[]
+2023-10-11 13:43:18.447 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1697002998445mx7  [0;39m ==>  Preparing: SELECT COUNT( * ) AS total FROM user
+2023-10-11 13:43:18.448 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1697002998445mx7  [0;39m ==> Parameters: 
+2023-10-11 13:43:18.449 DEBUG top.lxyi.share.user.mapper.UserMapper.selectCount :135  [32m1697002998445mx7  [0;39m <==      Total: 1
+2023-10-11 13:43:18.449 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697002998445mx7  [0;39m 返回结果：{"data":2,"success":true}
+2023-10-11 13:43:18.449 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697002998445mx7  [0;39m -------------结束耗时：4ms -----
+2023-10-11 13:43:24.189 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697003004185y7y  [0;39m -------开始-------
+2023-10-11 13:43:24.190 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697003004185y7y  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/registerPOST
+2023-10-11 13:43:24.190 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697003004185y7y  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.register
+2023-10-11 13:43:24.190 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697003004185y7y  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:24.190 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697003004185y7y  [0;39m 请求参数：[{}]
+2023-10-11 13:43:24.194 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003004185y7y  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:43:24.195 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003004185y7y  [0;39m ==> Parameters: 13951905172(String)
+2023-10-11 13:43:24.199 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003004185y7y  [0;39m <==      Total: 1
+2023-10-11 13:43:24.200 ERROR t.l.s.common.handler.ControllerExceptionHandler   :29   [32m1697003004185y7y  [0;39m 业务异常：
+top.lxyi.share.common.exception.BusinessException: null
+	at top.lxyi.share.user.service.UserService.register(UserService.java:55)
+	at top.lxyi.share.user.controller.UserController.register(UserController.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at top.lxyi.share.common.aspect.LogAspect.doAround(LogAspect.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at top.lxyi.share.user.controller.UserController$$SpringCGLIB$$0.register(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-11 13:43:32.532 INFO  top.lxyi.share.common.aspect.LogAspect            :48   [32m1697003012530tpx  [0;39m -------开始-------
+2023-10-11 13:43:32.533 INFO  top.lxyi.share.common.aspect.LogAspect            :49   [32m1697003012530tpx  [0;39m 请求地址：http://127.0.0.1:8001/user-service/user/loginPOST
+2023-10-11 13:43:32.533 INFO  top.lxyi.share.common.aspect.LogAspect            :50   [32m1697003012530tpx  [0;39m 类名方法：top.lxyi.share.user.controller.UserController.login
+2023-10-11 13:43:32.533 INFO  top.lxyi.share.common.aspect.LogAspect            :51   [32m1697003012530tpx  [0;39m 远程地址：127.0.0.1
+2023-10-11 13:43:32.534 INFO  top.lxyi.share.common.aspect.LogAspect            :71   [32m1697003012530tpx  [0;39m 请求参数：[{}]
+2023-10-11 13:43:32.536 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003012530tpx  [0;39m ==>  Preparing: SELECT id,phone,password,nickname,roles,avatar_url,bonus,create_time,update_time FROM user WHERE (phone = ?)
+2023-10-11 13:43:32.538 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003012530tpx  [0;39m ==> Parameters: 13951905171(String)
+2023-10-11 13:43:32.540 DEBUG top.lxyi.share.user.mapper.UserMapper.selectList  :135  [32m1697003012530tpx  [0;39m <==      Total: 1
+2023-10-11 13:43:32.541 INFO  top.lxyi.share.common.util.JwtUtil                :41   [32m1697003012530tpx  [0;39m 生成 JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDMwMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1ODEyLCJpYXQiOjE2OTcwMDMwMTJ9.YExKCqp_9BQiIv3yxw6rwA1O5Z6_u7ZE9A2Zj3IGgOo
+2023-10-11 13:43:32.541 INFO  top.lxyi.share.common.aspect.LogAspect            :82   [32m1697003012530tpx  [0;39m 返回结果：{"data":{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTcwMDMwMTIsInBob25lIjoiMTM5NTE5MDUxNzEiLCJpZCI6MSwiZXhwIjoxNjk3MTc1ODEyLCJpYXQiOjE2OTcwMDMwMTJ9.YExKCqp_9BQiIv3yxw6rwA1O5Z6_u7ZE9A2Zj3IGgOo","user":{"avatarUrl":"https://i2.100024.xyz/2023/01/26/3e727b.webp","bonus":620,"createTime":1694838230000,"id":1,"nickname":"mqxu","roles":"admin","updateTime":1694852630000}},"success":true}
+2023-10-11 13:43:32.541 INFO  top.lxyi.share.common.aspect.LogAspect            :83   [32m1697003012530tpx  [0;39m -------------结束耗时：9ms -----
+2023-10-11 15:31:20.912 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m30s639ms187µs800ns).
+2023-10-11 16:06:10.145 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-11 16:06:10.157 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

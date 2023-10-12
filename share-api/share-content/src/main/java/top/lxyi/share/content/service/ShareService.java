@@ -5,9 +5,15 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.micrometer.common.util.StringUtils;
 import jakarta.annotation.Resource;
+
 import org.springframework.stereotype.Service;
+import top.lxyi.share.common.resp.CommonResp;
 import top.lxyi.share.content.domain.entity.MidUserShare;
+
 import top.lxyi.share.content.domain.entity.Share;
+import top.lxyi.share.content.domain.resp.ShareResp;
+import top.lxyi.share.content.feign.User;
+import top.lxyi.share.content.feign.UserService;
 import top.lxyi.share.content.mapper.MidUserShareMapper;
 import top.lxyi.share.content.mapper.ShareMapper;
 
@@ -21,6 +27,8 @@ public class ShareService {
 
     @Resource
     private MidUserShareMapper midUserShareMapper;
+    @Resource
+    private UserService userService;
 
     /**
      * 查询某个用户首页可见的资源列表
@@ -28,7 +36,7 @@ public class ShareService {
      * @param title  标题
      * @param userId 用户id
      */
-    public List<Share> getList(String title,Integer pageNo,Integer pageSize, Long userId) {
+    public List<Share> getList(String title, Integer pageNo, Integer pageSize, Long userId) {
         // 构造查询条件
         LambdaQueryWrapper<Share> wrapper = new LambdaQueryWrapper<>();
         // 按照 id 降序查询所有数据
@@ -68,6 +76,12 @@ public class ShareService {
         }
 
         return sharesDeal;
+    }
+
+    public ShareResp findById(Long shareId){
+        Share share = shareMapper.selectById(shareId);
+        CommonResp<User> commonResp = userService.getUser(share.getUserId());
+        return ShareResp.builder().share(share).nickname(commonResp.getData().getNickname()).avatarUrl(commonResp.getData().getAvatarUrl()).build();
     }
 }
 
