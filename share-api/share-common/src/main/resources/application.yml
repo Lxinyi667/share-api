@@ -1,0 +1,4 @@
+spring:
+  jackson:
+    date-format: 2023-10-12 14:05:30
+    time-zone: Asia/Shanghai

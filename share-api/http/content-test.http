@@ -10,3 +10,14 @@ token:{{token}}
 GET http://localhost:8000/content-service/share/1
 Accept: application/json
 token:{{token}}
+
+###
+POST http://localhost:8000/content-service/share/exchange
+Content-Type: application/json
+Accept: application/json
+token:{{token}}
+
+{
+  "userId": 2,
+  "shareId": 22
+}

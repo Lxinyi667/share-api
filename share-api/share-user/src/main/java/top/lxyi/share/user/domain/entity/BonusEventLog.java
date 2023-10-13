@@ -1,4 +1,4 @@
-package top.lxyi.share.content.feign;
+package top.lxyi.share.user.domain.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,13 +11,11 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class User {
+public class BonusEventLog {
     private Long id;
-
-    private String nickname;
-
-    private String avatarUrl;
-
-    private Integer bonus;
-
+    private Long userId;
+    private Integer value;
+    private String description;
+    private String event;
+    private Date createTime;
 }
