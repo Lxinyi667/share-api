@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import top.lxyi.share.common.resp.CommonResp;
 import top.lxyi.share.common.util.JwtUtil;
 import top.lxyi.share.content.domain.dto.ExchangeDTO;
+import top.lxyi.share.content.domain.dto.ShareRequestDTO;
 import top.lxyi.share.content.domain.entity.Notice;
 import top.lxyi.share.content.domain.entity.Share;
 import top.lxyi.share.content.domain.resp.ShareResp;
@@ -82,6 +83,14 @@ public class ShareController {
         CommonResp<Share> commonResp = new CommonResp<>();
         commonResp.setData(shareService.exchange(exchangeDTO));
         return commonResp;
+    }
+    @PostMapping("/contribute")
+    public int contributeShare(@RequestBody ShareRequestDTO shareRequestDTO,
+                               @RequestHeader(value = "token", required = false) String token){
+        long userId = getUserIdFromToken(token);
+        shareRequestDTO.setUserId(userId);
+        System.out.println(shareRequestDTO);
+        return shareService.contribute(shareRequestDTO);
     }
 
 }

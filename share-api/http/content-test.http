@@ -21,3 +21,20 @@ token:{{token}}
   "userId": 2,
   "shareId": 22
 }
+
+###
+POST http://localhost:8000/content-service/share/contribute
+Content-Type: application/json
+Accept: application/json
+token: {{token}}
+
+{
+  "userId": 1,
+  "author": "尤雨溪",
+  "title": "详解 Vue.js",
+  "isOriginal": 1,
+  "price": 20,
+  "downloadUrl": "https://cn.vuejs.org/",
+  "cover": "http://encrypted-tbn0.gstatic.com/images/g=tbn:ANd9GcRXZvUwLdHZ-byVRLhSmprXrrqwMme3rbmv9EA&sqp=CAU",
+  "summary": "详解Vue.js详解Vue.js详解Vue.js详解Vue.js详解Vue.js详解Vue,js"
+}
