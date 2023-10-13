@@ -38,3 +38,8 @@ token: {{token}}
   "cover": "http://encrypted-tbn0.gstatic.com/images/g=tbn:ANd9GcRXZvUwLdHZ-byVRLhSmprXrrqwMme3rbmv9EA&sqp=CAU",
   "summary": "详解Vue.js详解Vue.js详解Vue.js详解Vue.js详解Vue.js详解Vue,js"
 }
+
+###
+GET http://localhost:8000/content-service/share/my-contribute?pageNo=2&pageSize=2
+Accept: application/json
+token:{{token}}
