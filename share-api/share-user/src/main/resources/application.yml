@@ -49,3 +49,9 @@ spring:
 logging:
   level:
     top.lxyi.share.user.mapper: debug
+
+rocketmq:
+  name-server: 8.130.76.42:9999
+  producer:
+    # 必须指定 group
+    group: test-group
