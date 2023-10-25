@@ -19,5 +19,6 @@ public class User {
     private String avatarUrl;
 
     private Integer bonus;
+    private String roles;
 
 }
