@@ -2,6 +2,7 @@ package top.lxyi.share.user.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.jwt.JWTUtil;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
@@ -20,6 +21,7 @@ import top.lxyi.share.user.mapper.BonusEventLogMapper;
 import top.lxyi.share.user.mapper.UserMapper;
 
 import java.util.Date;
+import java.util.List;
 import java.util.Map;
 
 
@@ -108,5 +110,11 @@ public class UserService {
 
 
     }
-
+    //    积分明细接口
+    public List<BonusEventLog> getBonusEventLog(Long userId) {
+        LambdaQueryWrapper<BonusEventLog> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(BonusEventLog::getUserId, userId);
+        List<BonusEventLog> bonusEventLogList = bonusEventLogMapper.selectList(wrapper);
+        return bonusEventLogList;
+    }
 }

@@ -24,6 +24,7 @@ import top.lxyi.share.content.feign.UserService;
 import top.lxyi.share.content.mapper.MidUserShareMapper;
 import top.lxyi.share.content.mapper.ShareMapper;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
@@ -209,6 +210,20 @@ public class ShareService {
                             .build());
         }
         return share;
+    }
+    //    我的兑换接口
+    public List<Share> myExchange(Long userId) {
+        LambdaQueryWrapper<MidUserShare> wrapper = new LambdaQueryWrapper<>();
+        wrapper.eq(MidUserShare::getUserId, userId);
+        List<MidUserShare> shareList = midUserShareMapper.selectList(wrapper);
+        List<Long> list = shareList.stream().map(item -> item.getShareId()).collect(Collectors.toList());
+        LambdaQueryWrapper<Share> queryWrapper = new LambdaQueryWrapper<>();
+        List<Share> shares = new ArrayList<Share>();
+        for (Long shareId : list) {
+            Share share = shareMapper.selectById(shareId);
+            shares.add(share);
+        }
+        return shares;
     }
 }
 

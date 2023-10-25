@@ -1,14 +1,19 @@
 package top.lxyi.share.user.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import top.lxyi.share.common.resp.CommonResp;
 import top.lxyi.share.user.domain.dto.LoginDTO;
 import top.lxyi.share.user.domain.dto.UserAddBonusMsgDTO;
+import top.lxyi.share.user.domain.entity.BonusEventLog;
 import top.lxyi.share.user.domain.entity.User;
 import top.lxyi.share.user.domain.resp.UserLoginResp;
 import top.lxyi.share.user.service.UserService;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/user")
@@ -67,6 +72,17 @@ public class UserController {
         commonResp.setData(userService.findById(userId));
         return commonResp;
     }
+//    积分明细接口
+    @GetMapping(value = "/getBonus")
+    public CommonResp<List<BonusEventLog>> getBonusEventLogs(@RequestParam Long id) {
+        List<BonusEventLog> list = userService.getBonusEventLog(+id);
+        CommonResp<List<BonusEventLog>> resp = new CommonResp<>();
+        resp.setData(list);
+        return resp;
+    }
+
+
+
 }
 
 

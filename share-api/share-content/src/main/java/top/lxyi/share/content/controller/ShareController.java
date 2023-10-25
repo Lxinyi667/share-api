@@ -1,6 +1,7 @@
 package top.lxyi.share.content.controller;
 
 import cn.hutool.json.JSONObject;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -8,15 +9,16 @@ import top.lxyi.share.common.resp.CommonResp;
 import top.lxyi.share.common.util.JwtUtil;
 import top.lxyi.share.content.domain.dto.ExchangeDTO;
 import top.lxyi.share.content.domain.dto.ShareRequestDTO;
+import top.lxyi.share.content.domain.entity.MidUserShare;
 import top.lxyi.share.content.domain.entity.Notice;
 import top.lxyi.share.content.domain.entity.Share;
 import top.lxyi.share.content.domain.resp.ShareResp;
 import top.lxyi.share.content.service.NoticeService;
 import top.lxyi.share.content.service.ShareService;
 
+import java.util.ArrayList;
 import java.util.List;
-
-
+import java.util.stream.Collectors;
 
 
 @RestController
@@ -48,7 +50,7 @@ public class ShareController {
         Long userId = getUserIdFromToken(token);
 //        long userId=1;
         CommonResp<List<Share>> commonResp = new CommonResp<>();
-
+        commonResp.setMessage("1111");
         commonResp.setData(shareService.getList(title,pageNo,pageSize,userId));
         return commonResp;
     }
@@ -84,6 +86,7 @@ public class ShareController {
         commonResp.setData(shareService.exchange(exchangeDTO));
         return commonResp;
     }
+//    投稿接口
     @PostMapping("/contribute")
     public int contributeShare(@RequestBody ShareRequestDTO shareRequestDTO,
                                @RequestHeader(value = "token", required = false) String token){
@@ -105,6 +108,22 @@ public class ShareController {
      commonResp.setData(shareService.myContribute(pageNo,pageSize,userId));
      return commonResp;
     }
+//    我的兑换接口
+
+    @GetMapping("/myExchange")
+    public CommonResp<List<Share>> myExchange(
+            @RequestHeader(value = "token", required = false) String token
+    ) {
+        long id = getUserIdFromToken(token);
+        List<Share> shares = shareService.myExchange(id);
+        CommonResp<List<Share>> resp = new CommonResp<>();
+        resp.setData(shares);
+        return resp;
+    }
+
+
+
+
 
 
 }
